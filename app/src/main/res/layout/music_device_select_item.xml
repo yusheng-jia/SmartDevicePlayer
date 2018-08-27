@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="36dp">
+
+    <LinearLayout
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:id="@+id/ll_music_device"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <View
+            android:layout_gravity="center_vertical"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:background="@drawable/music_device_online"
+            android:id="@+id/v_music_device_state"
+            android:src="@drawable/music_service_icon_nor"/>
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:text="卧室的音响"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_music_device_name"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:textSize="@dimen/musicServiceNameTextSize"/>
+    </LinearLayout>
+
+</RelativeLayout>

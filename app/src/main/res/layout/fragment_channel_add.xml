@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_my_channel_background"
+    android:id="@+id/rl_channel_add_root">
+
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/tb_channel_add"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        lt:leftButtonText="@string/channel_new_cancel"
+        lt:leftButtonTextSize="@dimen/channel_add_titlebar_lefttext_size"
+        lt:leftButtonTextColor="@color/text_color_black"
+        lt:titleText="@string/channel_new_add"
+        lt:titleSize="@dimen/actionbar_title_size"
+        lt:titleColor="@color/text_color_black"
+        lt:rightButtonText="@string/channel_new_save"
+        lt:rightButtonTextSize="@dimen/channel_add_titlebar_lefttext_size"
+        lt:rightButtonTextColor="@color/text_color_black"
+        android:paddingLeft="@dimen/title_bar_padding_left"
+        android:paddingRight="@dimen/myChannelHeaderMarginbothside"
+        android:background="@color/main_search_color"
+        >
+    </com.mantic.control.widget.TitleBar>
+
+    <View
+        android:id="@+id/view_under_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/tb_channel_add"
+        android:background="@color/under_titlebar_colr"/>
+
+
+    <LinearLayout
+        android:layout_below="@id/view_under_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/tv_channel_add_new"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/myChannelHeaderHeight"
+                android:background="@color/fragment_my_channel_background"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/myChannelHeaderMarginbothside"
+                android:text="@string/channel_new_name"
+                android:textColor="@color/myChannelNotesTextColor" />
+
+            <View
+                android:id="@+id/view_separator1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/tv_channel_add_new"
+                android:background="#dedede" />
+
+            <RelativeLayout
+                android:id="@+id/rl_new_channel_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/myChannelHeaderHeight"
+                android:background="@android:color/white"
+                android:layout_below="@id/view_separator1">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_new_channel_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_new_channel_name_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="13dp"
+                        android:gravity="center_vertical"
+                        android:text="0/20" />
+
+                    <ImageView
+                        android:id="@+id/iv_select_channel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="13dp"
+                        android:src="@drawable/channel_add_select"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+
+                <com.mantic.control.widget.ScrollEditText
+                    android:id="@+id/edit_new_channel_name"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/myChannelHeaderHeight"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@id/ll_new_channel_name"
+                    android:layout_weight="1"
+                    android:maxLength="20"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:textSize="14sp"
+                    android:paddingLeft="@dimen/myChannelHeaderMarginbothside"
+                    android:textColor="@color/black">
+                    <requestFocus/>
+                </com.mantic.control.widget.ScrollEditText>
+
+
+            </RelativeLayout>
+
+
+            <View
+                android:id="@+id/view_separator2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/rl_new_channel_name"
+                android:background="#dedede" />
+
+
+            <TextView
+                android:id="@+id/tv_added_channel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/myChannelHeaderHeight"
+                android:layout_below="@id/view_separator2"
+                android:background="@color/fragment_my_channel_background"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/myChannelHeaderMarginbothside"
+                android:text="添加到现有频道"
+                android:textColor="@color/myChannelNotesTextColor" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rsv_my_channel"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tv_added_channel">
+
+            </android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

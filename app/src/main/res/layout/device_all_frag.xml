@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_my_channel_background"
+    android:paddingBottom="@dimen/audioPlayerBottomSheetPeekHeight">
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/device_all_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/main_search_color"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/myChannelHeaderMarginbothside"
+        lt:leftButtonText="@string/close"
+        lt:leftButtonTextColor="@color/text_color_black"
+        lt:leftButtonTextSize="@dimen/channel_add_titlebar_lefttext_size"
+        lt:rightButtonText="@string/edit"
+        lt:rightButtonTextColor="@color/text_color_black"
+        lt:rightButtonTextSize="@dimen/channel_add_titlebar_lefttext_size"
+        lt:titleColor="@color/text_color_black"
+        lt:titleSize="@dimen/actionbar_title_size"
+        lt:titleText="@string/device_manage_title">
+    </com.mantic.control.widget.TitleBar>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/device_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never">
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/device_add"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/myChannelHeaderHeight"
+        android:background="@drawable/recylerview_item_bg"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/my_music_service_item_add"/>
+        <TextView
+            android:text="@string/add_device"
+            android:textSize="@dimen/myChannelNotesTextSize"
+            android:textColor="@color/tip_blue_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/deadline"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/audioPlayerPlaylistIndicatorColor"/>
+
+</LinearLayout>

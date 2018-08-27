@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <LinearLayout
+            android:id="@+id/clock_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/data_clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45sp"
+                android:textColor="#000000"
+                android:text="7:00"/>
+            <TextView
+                android:id="@+id/hint_clock"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="工作日"
+                android:textColor="#9f9393"/>
+        </LinearLayout>
+        <Switch
+            android:id="@+id/switch_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:thumb="@null"
+            android:track="@null"
+           android:background="@drawable/switch_drawable"
+            android:checked="true"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/clock_item_view"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#28000000"/>
+
+
+</LinearLayout>

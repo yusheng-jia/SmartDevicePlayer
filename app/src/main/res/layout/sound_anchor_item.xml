@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/myChannelItemHeight"
+    android:background="@drawable/recylerview_item_bg"
+    android:paddingStart="@dimen/fragmentChannelDetailCoverMarginLeft"
+    tools:ignore="RtlSymmetry">
+
+    <ImageButton
+        android:id="@+id/sound_anchor_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:visibility="visible"
+        android:paddingBottom="@dimen/myChannelHeaderMarginbothside"
+        android:paddingStart="@dimen/myChannelHeaderMarginbothside"
+        android:paddingTop="@dimen/myChannelHeaderMarginbothside"
+        android:paddingEnd="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:src="@drawable/background_play" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/sound_anchor_play"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/sound_anchor_icon"
+            android:layout_width="@dimen/musicServiceSubitemListitemIconWidth"
+            android:layout_height="@dimen/musicServiceSubitemListitemIconHeight"
+            android:layout_marginEnd="@dimen/channelDetailsItemNameTextMarginLeft"
+            android:padding="0.5px"
+            android:src="@drawable/sound_people" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/sound_anchor_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="小丽"
+                android:textColor="@color/channelDetailsItemNameTextColor" />
+
+            <TextView
+                android:id="@+id/sound_anchor_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="婉转优美"
+                android:layout_marginTop="2dp"
+                android:textSize="11sp"
+                android:textColor="@color/channel_detail_item_tv_album_sync_time_color"
+                tools:ignore="SmallSp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

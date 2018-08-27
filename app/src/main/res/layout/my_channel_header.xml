@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_my_channel_header"
+    android:background="@color/fragment_my_channel_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/channel_add_new_padding"
+        android:id="@+id/rl_my_channel_like_music"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/myChannelItemHeight"
+        android:background="@drawable/recylerview_item_bg"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/like_music_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+            android:src="@drawable/like_music" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/myChannelTitleMarginLeft"
+            android:layout_toRightOf="@id/like_music_icon"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_like_music_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/myChannelTitleMarginBottom"
+                android:text="@string/my_like_music"
+                android:textColor="@color/myChannelTitleTextColor"
+                android:textSize="@dimen/myChannelTitleTextSize" />
+
+            <TextView
+                android:id="@+id/tv_like_music_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/myChannelNotesTextColor"
+                android:textSize="@dimen/myChannelNotesTextSize" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/goto_like_music_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/myChannelHeaderMarginbothside"
+            android:background="@android:color/transparent"
+            android:src="@drawable/goto_enter" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/myChannelHeaderHeight"
+        android:layout_marginTop="@dimen/channel_add_new_padding"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_my_channel_management"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/myChannelHeaderMarginbothside"
+            android:background="@android:color/transparent"
+            android:src="@drawable/btn_channel_management" />
+
+        <ImageButton
+            android:id="@+id/btn_my_channel_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/myChannelHeaderMarginbothside"
+            android:layout_toLeftOf="@id/btn_my_channel_management"
+            android:background="@android:color/transparent"
+            android:src="@drawable/btn_channel_add" />
+
+        <TextView
+            android:id="@+id/tv_my_device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="酷曼音响"
+            android:maxWidth="180dp"
+            android:textColor="@color/myChannelNotesTextColor"
+            android:textSize="@dimen/myChannelNotesTextSize" />
+
+        <TextView
+            android:id="@+id/tv_my_channel_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/myChannelHeaderMarginbothside"
+            android:text="@string/channel_count"
+            android:layout_alignTop="@id/tv_my_device_name"
+            android:layout_alignBottom="@id/tv_my_device_name"
+            android:layout_toLeftOf="@id/btn_my_channel_add"
+            android:layout_toRightOf="@id/tv_my_device_name"
+            android:textColor="@color/myChannelNotesTextColor"
+            android:textSize="@dimen/myChannelNotesTextSize" />
+
+    </RelativeLayout>
+</LinearLayout>

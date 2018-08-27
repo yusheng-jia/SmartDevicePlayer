@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 主界面list -->
+    <string-array name="select_list_item">
+
+        <item>@string/item_music</item>
+        <item>@string/item_news</item>
+        <item>@string/item_entertainment</item>
+        <item>@string/item_business</item>
+        <item>@string/item_story</item>
+        <item>@string/item_comic_storytelling</item>
+        <item>@string/item_emotional</item>
+        <item>@string/item_historical</item>
+        <item>@string/item_health</item>
+
+    </string-array>
+
+    <array name="select_list_item_bg">
+        <item>@drawable/ic_music</item>
+        <item>@drawable/ic_news</item>
+        <item>@drawable/ic_entertainment</item>
+        <item>@drawable/ic_business</item>
+        <item>@drawable/ic_story</item>
+        <item>@drawable/ic_storytelling</item>
+        <item>@drawable/ic_emotional</item>
+        <item>@drawable/ic_historical</item>
+        <item>@drawable/ic_health</item>
+
+    </array>
+
+    <array name="rda_device_list">
+        <item>002b000000001a</item>
+        <item>24f4d875b8a8771dc230c8df6effb989</item>
+        <item>002b000000001b</item>
+        <item>fa17f8853bd1e2fe936655709f9f1330</item>
+        <item>002b000000001c</item>
+        <item>687823fa8505f3f7308866a055597de1</item>
+        <item>002b000000001d</item>
+        <item>b021c8c8987f863dd93cc0c3eb0558ba</item>
+    </array>
+    <array name="x1000_device_list">
+        <item>mbox_dev</item>
+    </array>
+
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+        <attr name="fill_color" format="color" />
+    </declare-styleable>
+</resources>

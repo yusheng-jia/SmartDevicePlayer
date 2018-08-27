@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/bg_feedback"
+    android:orientation="vertical">
+
+   <!-- android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"-->
+
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/tb_feed_back"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/main_search_color"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/myChannelHeaderMarginbothside"
+        lt:leftButtonImage="@drawable/ic_back_selector"
+        lt:rightButtonText="@string/commit"
+        lt:rightButtonTextColor="@color/titlebar_text_background"
+        lt:rightButtonTextSize="@dimen/channel_add_titlebar_lefttext_size"
+        lt:titleColor="@color/text_color_black"
+        lt:titleSize="@dimen/actionbar_title_size"
+        lt:titleText="@string/menu_suggestions">
+
+    </com.mantic.control.widget.TitleBar>
+    <View
+        android:id="@+id/view_under_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/under_titlebar_colr" />
+
+    <EditText
+        android:id="@+id/edit_content"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="13dp"
+        android:background="@android:color/white"
+        android:gravity="top"
+        android:maxLength="500"
+        android:textColor="#333333"
+        android:textColorHint="#cbcbcb"
+        android:textSize="14sp" >
+        <requestFocus/>
+        </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_grey"
+        android:padding="13dp"
+        android:textSize="14sp"
+        android:text="@string/feedback_tip" />
+</LinearLayout>

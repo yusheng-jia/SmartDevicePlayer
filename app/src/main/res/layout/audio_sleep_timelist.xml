@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/audio_player_playlist_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/audio_player_playlist_item_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/playlist_top_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/audioPlayerTopBarHeight">
+
+        <TextView
+            android:id="@+id/tv_sleep_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/audioPlayerPlaylistLoopMarginBothsides"
+            android:background="@android:color/transparent"
+            android:text="@string/sleep_timer"
+            android:textColor="@color/audioPlayerPlaylistLoopDescTextColor"
+            android:textSize="@dimen/audioPlayerPlaylistLoopDescTextSize" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcv_sleep_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/playlist_top_content"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:id="@+id/rl_sleep_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/audioPlayerTopBarHeight"
+        android:layout_below="@id/rcv_sleep_list"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/itemIndicatorHeight"
+            android:background="@android:color/transparent"
+            android:src="@color/audioPlayerPlaylistIndicatorColor" />
+
+        <TextView
+            android:id="@+id/tv_sleep_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/cancel"
+            android:textColor="@color/audioPlayerPlaylistLoopDescTextColor"
+            android:textSize="@dimen/audioPlayerPlaylistLoopDescTextSize" />
+    </RelativeLayout>
+</RelativeLayout>

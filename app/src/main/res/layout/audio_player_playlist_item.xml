@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/rl_audio_player_playlist_item"
+    android:layout_height="@dimen/audioPlayerPlaylistItemHeight">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/audio_player_playlist_item_del_btn"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/audioPlayerPlaylistLoopMarginBothsides"
+        android:background="@android:color/transparent"
+        android:src="@drawable/btn_audio_player_playlist_item_del"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/audio_player_playlist_item_setting_btn"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/audio_player_playlist_item_del_btn"
+        android:layout_marginRight="@dimen/audioPlayerPlaylistItemSettingBtnMarginRight"
+        android:background="@android:color/transparent"
+        android:src="@drawable/btn_audio_player_playlist_item_setting"/>
+
+    <!-- FM-->
+    <TextView
+        android:id="@+id/time_periods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+    <TextView
+        android:background="@drawable/zhibo_background"
+        android:id="@+id/text_fm_zhibo"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/time_periods"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:visibility="gone"/>
+    <!-- FM-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layout_toLeftOf="@id/audio_player_playlist_item_setting_btn"
+        android:layout_marginRight="13dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/audio_player_playlist_item_name"
+            android:layout_marginLeft="@dimen/audioPlayerPlaylistLoopMarginBothsides"
+            android:background="@android:color/transparent"
+            android:textSize="@dimen/audioPlayerPlaylistItemNameTextSize"
+            android:textColor="@color/audioPlayerPlaylistItemNameTextColor"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/audio_player_playlist_item_name_sep"
+            android:background="@android:color/transparent"
+            android:textSize="@dimen/audioPlayerPlaylistItemSingerNameTextSize"
+            android:textColor="@color/audioPlayerPlaylistItemSingerNameTextColor"
+            android:text=" - "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/audio_player_playlist_item_singer_name"
+            android:background="@android:color/transparent"
+            android:textSize="@dimen/audioPlayerPlaylistItemSingerNameTextSize"
+            android:textColor="@color/audioPlayerPlaylistItemSingerNameTextColor"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

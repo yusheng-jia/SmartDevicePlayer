@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/audioPlayerBottomSheetPeekHeight"
+    android:background="@color/topDialogBackgroundDark">
+    <SeekBar
+        android:id="@+id/audio_player_volume_dialog_seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/volume_max"
+        android:layout_toRightOf="@id/volume_min"
+        android:maxHeight="1.3dp"
+        android:minHeight="1.3dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:max="150"
+        android:progressDrawable="@drawable/dialog_seekbar_bg"
+        android:thumb="@drawable/volume_thumb"
+        android:thumbOffset="5dp"/>
+
+    <ImageView
+        android:id="@+id/volume_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/volume_down_icon"/>
+
+    <ImageView
+        android:id="@+id/volume_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/volume_up_icon"/>
+
+</RelativeLayout>

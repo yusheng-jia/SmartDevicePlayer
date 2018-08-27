@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/display_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:paddingTop="@dimen/nav_header_height">
+
+    <LinearLayout
+        android:id="@+id/ll_about"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/mainTabBottomLineColor">
+        </View>
+
+        <TextView
+            android:id="@+id/nav_clock"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:text="@string/menu_clock"
+            android:textColor="@color/text_color_black"
+            android:visibility="gone"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            />
+
+        <View
+            android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/mainTabBottomLineColor"
+            android:visibility="gone">
+        </View>
+
+        <LinearLayout
+            android:id="@+id/account_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:id="@+id/modify_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:text="@string/account_settings"
+                android:textColor="@color/text_color_black" />
+            <View
+                android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/mainTabBottomLineColor"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:visibility="gone"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:id="@+id/help_menu"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:text="@string/help"
+            android:textColor="@color/text_color_black" />
+        <View
+            android:visibility="gone"
+            android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/mainTabBottomLineColor"/>
+
+        <TextView
+            android:id="@+id/nav_suggestions"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:text="@string/menu_suggestions"
+            android:textColor="@color/text_color_black"
+
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            />
+
+        <View
+            android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/mainTabBottomLineColor">
+        </View>
+        <TextView
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:id="@+id/update_app"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:text="@string/soft_update"
+            android:textColor="@color/text_color_black" />
+
+        <View
+            android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/mainTabBottomLineColor">
+        </View>
+        <TextView
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:id="@+id/nav_about"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:text="@string/menu_about"
+            android:textColor="@color/text_color_black" />
+
+        <View
+            android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/mainTabBottomLineColor">
+        </View>
+        <TextView
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:id="@+id/nav_logout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:text="@string/logout"
+            android:textColor="@color/text_color_black" />
+
+        <View
+            android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/mainTabBottomLineColor">
+        </View>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_below="@id/ll_about"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/nav_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_setting"
+            android:drawablePadding="5dp"
+            android:padding="10dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="@string/setting"
+            android:textColor="@color/text_color_black" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/nav_logout11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_logout"
+            android:drawablePadding="5dp"
+            android:padding="10dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="@string/logout"
+            android:textColor="@color/text_color_black" />
+    </FrameLayout>
+
+
+</RelativeLayout>

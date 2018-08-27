@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_definition_channel_detail_cover"
+        android:layout_width="@dimen/fragmentChannelDetailCoverWidth"
+        android:layout_height="@dimen/fragmentChannelDetailCoverHeight"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:layout_marginTop="@dimen/fragmentChannelDetailsToolbarMariginBottom"
+        android:background="@android:color/transparent"
+        android:src="@drawable/fragment_channel_detail_cover" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_definition_channel_detail_cover"
+        android:layout_toRightOf="@id/iv_definition_channel_detail_cover"
+        android:layout_marginLeft="@dimen/fragmentChannelDetailAddBtnMarginLeft"
+        android:layout_marginBottom="@dimen/fragmentChannelDetailChannelNameMarginBottom"
+        android:layout_marginRight="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:orientation="vertical">
+
+        <com.mantic.control.widget.ScrollEditText
+            android:id="@+id/edit_definition_channel_detail_channel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/fragmentChannelDetailChannelNameTextColor"
+            android:textSize="@dimen/fragmentChannelDetailChannelNameTextSize" />
+
+        <TextView
+            android:id="@+id/tv_definition_channel_detail_singer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/fragmentChannelDetailAlbumNameTextColor"
+            android:textSize="@dimen/fragmentChannelDetailAlbumNameTextSize" />
+
+        <TextView
+            android:id="@+id/tv_definition_channel_detail_album_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/fragmentChannelDetailAlbumNameTextColor"
+            android:textSize="@dimen/fragmentChannelDetailAlbumNameTextSize" />
+
+        <TextView
+            android:id="@+id/tv_channel_last_sync_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/channel_last_sync_time"
+            android:textColor="@color/fragmentChannelDetailAlbumNameTextColor"
+            android:textSize="@dimen/fragmentChannelDetailAlbumNameTextSize" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/fragment_channel_detail_cover_bottom_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemIndicatorHeight"
+        android:layout_below="@id/iv_definition_channel_detail_cover"
+        android:layout_marginTop="@dimen/fragmentChannelDetailCoverBottomIndicatorMarginTop"
+        android:src="@color/mainTabBottomLineColor" />
+
+    <RelativeLayout
+        android:id="@+id/fragment_channel_detail_random_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_channel_detail_linearlayout_height"
+        android:layout_below="@id/fragment_channel_detail_cover_bottom_indicator"
+        android:orientation="horizontal">
+
+        <com.mantic.control.widget.ScrollEditText
+            android:id="@+id/edit_channel_desc"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myChannelHeaderHeight"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:textSize="14sp"
+            android:hint="添加描述"
+            android:textColorHint="#878787"
+            android:paddingLeft="@dimen/myChannelHeaderMarginbothside"
+            android:textColor="@color/black">
+            <requestFocus/>
+        </com.mantic.control.widget.ScrollEditText>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/fragment_channel_detail_linearlayout_bottom_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemIndicatorHeight"
+        android:layout_below="@id/fragment_channel_detail_random_linearlayout"
+        android:src="@color/mainTabBottomLineColor" />
+
+</RelativeLayout>

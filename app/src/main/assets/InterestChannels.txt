@@ -1,0 +1,401 @@
+[
+    {
+        "interestId": "0",
+        "channelList": [{
+                "channelName": "虾米音乐榜",
+                "musicServiceId": "baidu",
+                "channelId": "http://znzs.image.alimmdn.com/bdfm/xm/xmrgb.png",
+                "channelCoverUrl": "http://znzs.image.alimmdn.com/bdfm/xm/xmrgb.png",
+                "channelIntro": "排行榜:2",
+                "totalCount": 0,
+                "pre_data_type": 3,
+                "album_id": "baidu:album:虾米音乐榜",
+                "channel_from": "MyChannelFragment",
+                "main_id": "虾米音乐榜"
+            },
+            {
+              "channelName": "那些年追过的歌",
+              "musicServiceId": "qingting",
+              "channelId": "http://pic.qingting.fm/2015/1209/20151209105445444.jpg!400",
+              "channelCoverUrl": "http://pic.qingting.fm/2015/1209/20151209105445444.jpg!400",
+              "channelIntro": "节目公众微信号：那些年追过的歌",
+              "totalCount": 582,
+              "pre_data_type": 3,
+              "album_id": "qingting:ondemand:album:72886",
+              "channel_from": "MyChannelFragment",
+              "main_id": "分类"
+           },
+            {
+                "channelName": "云音乐热歌榜",
+                "musicServiceId": "baidu",
+                "channelId": "http://znzs.image.alimmdn.com/bdfm/wy/wyyrgb.png",
+                "channelCoverUrl": "http://znzs.image.alimmdn.com/bdfm/wy/wyyrgb.png",
+                "channelIntro": "排行榜:2",
+                "totalCount": 0,
+                "pre_data_type": 3,
+                "album_id": "baidu:album:云音乐热歌榜",
+                "channel_from": "MyChannelFragment",
+                "main_id": "云音乐热歌榜"
+             },
+             {
+                 "channelName": "歌者盟翻唱",
+                 "musicServiceId": "qingting",
+                 "channelId": "http://pic.qingting.fm/2016/0518/20160518164831204.png!400",
+                 "channelCoverUrl": "http://pic.qingting.fm/2016/0518/20160518164831204.png!400",
+                 "channelIntro": "欢迎加入交流群qq260648490 注册歌者盟APP，填写F码2943172即可获得免费K歌教程。 歌者盟独家翻唱专辑，同一首歌曲，不一样的演绎，同一句歌词，不一样的味道，唱出自我，唱响生活！",
+                 "totalCount": 314,
+                 "pre_data_type": 3,
+                 "album_id": "qingting:ondemand:album:154850",
+                 "channel_from": "MyChannelFragment",
+                 "main_id": "分类"
+              },
+               {
+                 "channelName": "音乐high一点",
+                 "musicServiceId": "qingting",
+                 "channelId": "http://pic.qingting.fm/2015/0617/20150617154257971.jpg!400",
+                 "channelCoverUrl": "http://pic.qingting.fm/2015/0617/20150617154257971.jpg!400",
+                 "channelIntro": "《音乐high一点》是中央人民广播电台交通广播FM.996，每天下午一点到两点开播的音乐节目，每天都会有不同的音乐主题，每个主题都是为了让听到的人，比平时多high那么一点点。听听好听的歌，聊聊音乐背后的故事，《音乐high一点》，午后出行的路上，不会犯困的音乐陪伴。",
+                 "totalCount": 265,
+                 "pre_data_type": 3,
+                 "album_id": "qingting:ondemand:album:109698",
+                 "channel_from": "MyChannelFragment",
+                 "main_id": "分类"
+               },
+              {
+                  "channelName": "让人热血沸腾的纯音乐",
+                  "musicServiceId": "qingting",
+                  "channelId": "http://pic.qingting.fm/2016/0804/20160804170854867.png!400",
+                  "channelCoverUrl": "http://pic.qingting.fm/2016/0804/20160804170854867.png!400",
+                  "channelIntro": "令人热血沸腾的纯音乐",
+                  "totalCount": 45,
+                  "pre_data_type": 3,
+                  "album_id": "qingting:ondemand:album:172316",
+                  "channel_from": "MyChannelFragment",
+                  "main_id": "分类"
+               }
+            ]
+    },
+    {
+        "interestId": "1",
+        "channelList": [{
+                "channelName": "胡言不乱语",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/goods/2017/05/09/f9c65df4e0b158ab00f414a110d4f45f.jpg!200",
+                "channelCoverUrl": "http://pic.qingting.fm/goods/2017/05/09/f9c65df4e0b158ab00f414a110d4f45f.jpg!200",
+                "channelIntro": "《环球时报》总编辑胡锡进入驻蜻蜓，犀利视角，独家点评，尽在《胡言不乱语》！",
+                "totalCount": 411,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:149704",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "《听君一席话》",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2017/07/17/partner_8a82f582842041c3ea703f6f762d42f8.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2017/07/17/partner_8a82f582842041c3ea703f6f762d42f8.jpg!400",
+                "channelIntro": "百科历史轻幽默，听君浩涨知识!",
+                "totalCount": 60,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:140918",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "科技美学|每日资讯",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2016/0216/20160216172702771.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2016/0216/20160216172702771.jpg!400",
+                "channelIntro": "科技美学是国内领先的科技新媒体，每天为您带来有用有趣的科技资讯",
+                "totalCount": 623,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:142666",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+
+    },
+    {
+        "interestId": "2",
+         "channelList": [{
+                "channelName": "帅得够young",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2017/10/11/partner_d3841a4f35201b8460583f46c0f756cb.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2017/10/11/partner_d3841a4f35201b8460583f46c0f756cb.jpg!400",
+                "channelIntro": "聊聊话题，听听歌，不为别的，陪伴就是最长情的告白。",
+                "totalCount": 12,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:228876",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "娱乐宅急便",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2016/0816/20160816173148807.png!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2016/0816/20160816173148807.png!400",
+                "channelIntro": "实时娱乐新闻，毒舌热辣点评",
+                "totalCount": 903,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:176106",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "每日文娱播报",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2015/0707/20150707082604882.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2015/0707/20150707082604882.jpg!400",
+                "channelIntro": "网罗明星趣闻 追踪娱乐动向 深度明星访谈 直击现场新闻",
+                "totalCount": 772,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:112506",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+    },
+    {
+        "interestId": "3",
+        "channelList": [{
+                "channelName": "经济日报财经早餐",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2016/0603/20160603145301502.png!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2016/0603/20160603145301502.png!400",
+                "channelIntro": "全世界都关注中国经济，你不懂一点怎么行！我们是中央党报，是经济领域发行量最大、最具权威性和公信力的主流媒体，只推送给你靠谱的内容！
+                    每天清晨三分钟“财经早餐”，让你第一时间获取最准确、最及时、最有料的国内、国际新闻。",
+                "totalCount": 485,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:158242",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "雪球",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2015/0818/2015081816360223.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2015/0818/2015081816360223.jpg!400",
+                "channelIntro": "聪明的投资者都在这里，为你指引通往财富的道路。",
+                "totalCount": 649,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:74138",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "理财无难事",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2015/0331/20150331180434558.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2015/0331/20150331180434558.jpg!400",
+                "channelIntro": "理财无难事，你身边的理财专家。用最实用的理财策略，短短几分钟便可以完成个人资产保值增值。",
+                "totalCount": 760,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:73140",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+    },
+    {
+        "interestId": "4",
+        "channelList": [{
+                "channelName": "孩子们的瞌睡虫，睡前童话！",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2016/0111/20160111181819672.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2016/0111/20160111181819672.jpg!400",
+                "channelIntro": "儿童睡前故事精彩美妙的内容，让宝宝快乐地享受睡前黄金时光，温暖宝宝幸福的童年生活。",
+                "totalCount": 719,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:139504",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "爱探险的朵拉【瓦猫吉祥讲故事】",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2017/09/30/partner_f364e750343ac23fb04bc857459e820d.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2017/09/30/partner_f364e750343ac23fb04bc857459e820d.jpg!400",
+                "channelIntro": "欢迎跟朵拉一起加入探险的旅程，到世界公认的美式英语少儿教学片，它通过朵拉每一次探险的故事，教会小现众在生自学成才中有趣实用的英语单词和词组。这套节目精心的故事编排与美丽活泼的画面，会给您一个独特的机会，让您与孩子一建立起思考学习，充分享受求知和探索的乐趣，帮助您的孩子建立快乐，自信和成功的人生观念。",
+                "totalCount": 26,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:228314",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "宝宝巴士启蒙音乐剧",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2017/10/23/partner_8f7bc7a5d2d0aa7470a8524ac9aecc33.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2017/10/23/partner_8f7bc7a5d2d0aa7470a8524ac9aecc33.jpg!400",
+                "channelIntro": "全新3D动画《宝宝巴士启蒙音乐剧》暑期上演啦！这一次奇奇妙妙通过音乐魔法，将生活情景和认知故事变成了朗朗上口的音乐短剧。帮助孩子们学习语言、认识事物、开启幼儿对世界的兴趣与了解",
+                "totalCount": 16,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:229823",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+    },
+    {
+        "interestId": "5",
+        "channelList": [{
+                "channelName": "呲花哥讲段子",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2017/0208/20170208164847691.png!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2017/0208/20170208164847691.png!400",
+                "channelIntro": "呲花哥个人微信号：cihuage0928。微信公众号：我是呲花哥。新浪微博@呲花哥讲段子。土生土长东北电台主播呲花哥，带给你最接地气儿、最不做作的笑话段子，让呲花哥带你装X，带你灰！",
+                "totalCount": 584,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:143218",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "方清平相声小品集锦",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/channel/2017/10/20/0ed8860beaa053d97ff0b7f8c0ec89dd.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/channel/2017/10/20/0ed8860beaa053d97ff0b7f8c0ec89dd.jpg!400",
+                "channelIntro": "方清平，1970年8月5日出生于北京市，中国内地相声、小品演员。北京青门海派创始人。1983年，13岁的方清平开始学习相声，2010年，40岁的方清平以相声新人的身份参加了第五届CCTV相声大赛，表演单口相声《幸福童年》，夺得相声大赛二等奖而被人们所熟识。 2013年2月，首次登上中央电视台春节联欢晚会的舞台，与孙涛、秦海璐、王茜华表演小品。  3月，开始担任BTV首档京味脱口秀《脱口而出》主持人。",
+                "totalCount": 160,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:228975",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "春晚相声小品大全",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2016/0106/20160106135046346.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2016/0106/20160106135046346.jpg!400",
+                "channelIntro": "本专辑收录了1983年至2015年，历年春晚舞台上涌现的经典相声和小品，近400段。收听并收藏本专辑，让你在欢声笑语中品味那些年春晚带给全国人民的欢乐和感动。",
+                "totalCount": 408,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:139154",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+    },
+    {
+        "interestId": "6",
+        "channelList": [{
+                "channelName": "尧西情感",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2017/08/28/partner_8ce320657fe75246a6237faea7892390.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2017/08/28/partner_8ce320657fe75246a6237faea7892390.jpg!400",
+                "channelIntro": "尧西情感外挂中心，没有我们挽回不了的感情，没有我们勾搭不了的男人。只是你还没有认识我。",
+                "totalCount": 59,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:129334",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "北辰在找你",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2017/04/19/partner_932a58e83417aa32d3466991d397e7e2.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2017/04/19/partner_932a58e83417aa32d3466991d397e7e2.jpg!400",
+                "channelIntro": "CNR中国交通广播FM99.6精品节目《北辰在找你》，公 众 号:北辰在找你。",
+                "totalCount": 1603,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:109592",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "城市的声音",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2015/0106/20150106143425259.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2015/0106/20150106143425259.jpg!400",
+                "channelIntro": "",
+                "totalCount": 668,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:86448",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+    },
+    {
+        "interestId": "7",
+        "channelList": [{
+                "channelName": "中华上下五千年",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2016/0825/20160825140510147.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2016/0825/20160825140510147.jpg!400",
+                "channelIntro": "中华民族是一个具有悠久历史和灿烂文化的民族。了解祖国的过去，才能更加热爱祖国的现在和将来。我国在漫长的历史进程中，发生过无数轰轰烈烈的事件，也涌现出许多叱咤风云的人物。把这些历史事件和风云人物介绍给读者，可以开拓他们的视野，提高他们的文化素养，增强他们的民族自尊心和爱国热情。故有书《中华上下五千年》",
+                "totalCount": 50,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:177658",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "野史秘闻",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2015/1209/20151209103331163.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2015/1209/20151209103331163.jpg!400",
+                "channelIntro": "千年风云变幻，古今春夏秋冬，尽在《野史秘闻》。纵横古今中外，网罗各种秘闻，给你一个独特的视角看世界。",
+                "totalCount": 314,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:126696",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "马未都文化大观",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2016/0421/20160421164123812.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2016/0421/20160421164123812.jpg!400",
+                "channelIntro": "著名文化学者、观复博物馆馆长马未都脱口秀，藉由马未都独具特色的“文化杂家”身份，以其独一无二的“马氏”语言方式将文化、历史、热点事件等与电影充分结合解读，只说道理，不求真相。",
+                "totalCount": 163,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:151248",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+
+    },
+    {
+        "interestId": "8",
+        "channelList": [{
+                "channelName": "今天来养生",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2017/06/22/partner_0ec19386bdc0fa687fd027ea6b16c0a9.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2017/06/22/partner_0ec19386bdc0fa687fd027ea6b16c0a9.jpg!400",
+                "channelIntro": "心不能亡，身不可荒，身心健康之道贵在保养。如果有养生的问题，可以拨打0579-82958680或者添加qixueshuangbuwan。",
+                "totalCount": 773,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:219269",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "健康用点心",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2017/06/22/partner_64132c6fb0f7ee67eb25445324d26265.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2017/06/22/partner_64132c6fb0f7ee67eb25445324d26265.jpg!400",
+                "channelIntro": "每天早上7：30，健康资讯一手播报，心卫士准时关心你。",
+                "totalCount": 27,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:219278",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "安老湿说：听他5分钟 还您健康身体很轻松",
+                "musicServiceId": "qingting",
+                "channelId": "http://pic.qingting.fm/2017/09/03/partner_65f4083ee3e1c04b33d2561939354b7e.jpg!400",
+                "channelCoverUrl": "http://pic.qingting.fm/2017/09/03/partner_65f4083ee3e1c04b33d2561939354b7e.jpg!400",
+                "channelIntro": "安老湿说，一档专门服务于锻炼、健身、健康人群的专业健身类节目。节目5分钟的内容，却绝对是干货满满。为您说的都是您最急需的运动干货，每个工作日早上5点更新，绝对是您早锻炼的必备“听货”！还犹豫啥，赶紧订阅我们吧！每天五分钟，健康每一天^_^",
+                "totalCount": 58,
+                "pre_data_type": 3,
+                "album_id": "qingting:ondemand:album:226114",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+    }
+]

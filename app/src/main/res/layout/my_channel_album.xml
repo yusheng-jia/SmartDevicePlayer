@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_goto_channel_details"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/myChannelItemHeight"
+    android:background="@drawable/recylerview_item_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_my_channel_serial_number"
+        android:textSize="@dimen/myChannelSerialNumberTextSize"
+        android:textColor="@color/text_color_grey"
+        android:layout_marginStart="@dimen/myChannelSerialNumberMarginStart"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:layout_width="@dimen/myChannelCoverWidth"
+        android:layout_height="@dimen/myChannelCoverHeight"
+        android:padding="0.5px"
+        android:id="@+id/iv_my_channel_cover"
+        android:background="@drawable/shape_gray_square_bg"
+        android:layout_marginStart="@dimen/myChannelCoverMarginStart"
+        android:layout_centerVertical="true"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/goto_channel_list_btn"
+        android:src="@drawable/goto_enter"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/myChannelHeaderMarginbothside"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"/>
+
+    <LinearLayout
+        android:layout_toLeftOf="@id/goto_channel_list_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/iv_my_channel_cover"
+        android:layout_marginLeft="@dimen/myChannelTitleMarginLeft"
+        android:layout_marginRight="@dimen/myChannelTitleMarginLeft"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/album_title"
+            android:textSize="@dimen/myChannelTitleTextSize"
+            android:text="@string/my_like_music"
+            android:textColor="@color/myChannelTitleTextColor"/>
+
+        <TextView
+            android:paddingTop="@dimen/myChannelTitleMarginBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/album_sub"
+            android:textSize="@dimen/myChannelNotesTextSize"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/myChannelNotesTextColor"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5.5dp"
+    android:layout_marginLeft="2.65dp"
+    android:layout_marginRight="2.65dp"
+    android:layout_marginTop="5.5dp">
+
+    <ImageView
+        android:id="@+id/iv_entertainment_voiced"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/audio_bottom_bar_album_cover" />
+</RelativeLayout>

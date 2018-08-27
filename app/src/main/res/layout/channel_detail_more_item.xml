@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/channelDetailMorelistBgColor"
+    android:paddingLeft="@dimen/channel_detail_more_list_item_left_padding"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/channel_detail_more_list_item_height">
+
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/channelDetailMorelistItemTextColor"
+        android:id="@+id/tv_channel_detail_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </TextView>
+
+</RelativeLayout>

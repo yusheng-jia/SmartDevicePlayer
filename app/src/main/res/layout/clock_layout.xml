@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_my_channel_background">
+
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/clock_add_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/main_search_color"
+        android:paddingStart="8dp"
+        android:paddingEnd="@dimen/myChannelHeaderMarginbothside"
+        lt:leftButtonImage="@drawable/ic_back_selector"
+        lt:titleColor="@color/text_color_black"
+        lt:titleSize="@dimen/actionbar_title_size"
+        lt:titleText="@string/clock_setting"
+        lt:rightButtonText="@string/add_clock"
+        lt:rightButtonTextSize="16dp">
+    </com.mantic.control.widget.TitleBar>
+    <View
+        android:id="@+id/view_tab_layout_separator"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#cdcdcd" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:id="@+id/clock_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_search_color"
+        android:overScrollMode="never">
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/remind_view"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:text="你当前没有闹钟，现在设置"
+        android:textSize="16sp"/>
+
+</LinearLayout>

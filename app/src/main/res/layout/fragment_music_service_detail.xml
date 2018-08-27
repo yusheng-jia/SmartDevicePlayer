@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/tb_music_service_detail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/main_search_color"
+        android:paddingLeft="@dimen/title_bar_padding_left"
+        lt:leftButtonImage="@drawable/ic_back_selector">
+
+    </com.mantic.control.widget.TitleBar>
+
+    <View
+        android:id="@+id/view_under_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/tb_channel_management"
+        android:background="@color/under_titlebar_colr" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:layout_marginTop="18.7dp">
+
+            <ImageView
+                android:id="@+id/iv_music_service_detail_icon"
+                android:layout_width="127.7dp"
+                android:layout_height="127.7dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="18.7dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="127.7dp"
+                android:layout_toRightOf="@id/iv_music_service_detail_icon"
+                android:clickable="true">
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_music_service_detail_operator"
+                    android:layout_width="76.7dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/iv_music_service_detail_add"
+                        android:layout_width="76.7dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/music_service_detail_add" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_music_service_added_success"
+                        android:layout_width="76.7dp"
+                        android:layout_height="28dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/iv_channel_added_success"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/channel_detail_added_success" />
+
+                        <TextView
+                            android:id="@+id/tv_music_device_detail_added"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@id/iv_channel_added_success"
+                            android:text="已添加"
+                            android:textColor="#a9a9a9"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_music_service_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="QQ音乐"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/mainTabBottomLineColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="17dp">
+
+            <TextView
+                android:id="@+id/tv_music_service_detail_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/mainTabBottomLineColor" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

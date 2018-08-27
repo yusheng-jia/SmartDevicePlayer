@@ -1,0 +1,164 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">13dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="about_activity_setting_margin_bottom">8dp</dimen>
+    <!-- 按钮高度 -->
+    <dimen name="button_height">45dp</dimen>
+
+<!--add by muxinwu start-->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="top_dialog_height">225dp</dimen>
+
+    <dimen name="audioPlayerBottomSheetPeekHeight">57.3dp</dimen>
+    <dimen name="audioBottomBarAlbumCoverWidthHeight">47.3dp</dimen>
+
+    <dimen name="toolbar_height">44dp</dimen>
+    <dimen name="toolbar_button_margintop">3dp</dimen>
+    <dimen name="toolbar_button_marginbottom">3dp</dimen>
+    <dimen name="toolbar_button_marginbothside">7dp</dimen>
+    <dimen name="toolbar_title_textsize">17sp</dimen>
+    <dimen name="toolbar_bothside_textsize">13sp</dimen>
+
+    <dimen name="channel_add_new_padding">5dp</dimen>
+
+    <dimen name="tablayout_height">30dp</dimen>
+    <dimen name="tabIndicatorHeight">0dp</dimen>
+    <dimen name="mainTabIndicatorWidth">30dp</dimen>
+    <dimen name="mainTabIndicatorHeight">2dp</dimen>
+    <dimen name="itemIndicatorHeight">1px</dimen>
+    <dimen name="myChannelHeaderHeight">36dp</dimen>
+    <dimen name="myChannelNotesTextSize">13sp</dimen>
+    <dimen name="myChannelHeaderMarginbothside">13dp</dimen>
+    <dimen name="myChannelItemHeight">84.7dp</dimen>
+    <dimen name="myChannelTitleTextSize">16sp</dimen>
+    <dimen name="myChannelTitleMarginLeft">15dp</dimen>
+    <dimen name="myChannelTitleMarginBottom">8dp</dimen>
+    <dimen name="myChannelSerialNumberTextSize">17sp</dimen>
+    <dimen name="myChannelSerialNumberMarginStart">13dp</dimen>
+    <dimen name="myChannelCoverWidth">62dp</dimen>
+    <dimen name="myChannelCoverHeight">@dimen/myChannelCoverWidth</dimen>
+    <dimen name="myChannelCoverMarginStart">40dp</dimen>
+    <dimen name="myChannelItemGroupGap">14dp</dimen>
+    <dimen name="myChannelLastItemGap">70dp</dimen>
+    <dimen name="audioBottomBarAlbumCoverMarginTopBottom">4dp</dimen>
+    <dimen name="audioBottomBarChannelNameMarginsinger">2dp</dimen>
+    
+    <dimen name="audioPlayerToolbarHeight">351dp</dimen>
+    <dimen name="audioPlayerAlbumCoverMarginParentTop">95.3dp</dimen>
+    <dimen name="audioPlayerAlbumNameTextSize">16sp</dimen>
+    <dimen name="audioPlayerAlbumNameMarginTop">6dp</dimen>
+    <dimen name="audoPlayerSingerNameMarginTop">12dp</dimen>
+    <dimen name="audoPlayerSingerNameMarginBottom">10dp</dimen>
+    <dimen name="audioPlayerSingerNameTextSize">15sp</dimen>
+    <dimen name="audioPlayerImgBtnSize">21.3dp</dimen>
+    <dimen name="audioPlayerElectricityBtnMarginLeft">55dp</dimen>
+    <dimen name="audioPlayerImgBtnMarginLeft">36dp</dimen>
+    <dimen name="audioPlayerImgBtnMarginBottom">39dp</dimen>
+    <dimen name="audioPlayerPlayPauseBtnMarginBottom">19dp</dimen>
+    <dimen name="audioPlayerPreBtnMarginRight">44dp</dimen>
+    <dimen name="audioPlayerProgressSeekbarlength">296dp</dimen>
+    <dimen name="audioPlayerTimeTextSize">13sp</dimen>
+    <dimen name="audioPlayerTimeMargin">0dp</dimen>
+    <dimen name="fragmentChannelDetailCoverWidth">128.3dp</dimen>
+    <dimen name="fragmentChannelDetailCoverHeight">128.3dp</dimen>
+    <dimen name="fragmentChannelDetailsToolbarMariginBottom">19dp</dimen>
+    <dimen name="fragmentChannelDetailCoverMarginLeft">13dp</dimen>
+    <dimen name="fragmentSubitemListItemDecorationMarginLeft">73dp</dimen>
+    <dimen name="fragmentChannelDetailAddBtnMarginLeft">17dp</dimen>
+    <dimen name="fragmentChannelDetailAlbumNameTextSize">13sp</dimen>
+    <dimen name="fragmentChannelDetailAlbumNameMarginBottom">23dp</dimen>
+    <dimen name="fragmentChannelDetailSingerNameMarginBottom">5dp</dimen>
+    <dimen name="fragmentChannelDetailChannelNameTextSize">16sp</dimen>
+    <dimen name="fragmentChannelDetailChannelNameMarginBottom">7dp</dimen>
+    <dimen name="fragmentChannelDetailCoverBottomIndicatorMarginTop">22dp</dimen>
+    <dimen name="fragmentChannelDetaildescExpandabletextviewMarginTop">21dp</dimen>
+    <dimen name="fragmentChannelDetailExpandableTextSize">16sp</dimen>
+    <dimen name="fragment_channel_detail_linearlayout_height">48dp</dimen>
+    <dimen name="fragmentChannelDetailRandomButtonTextInterval">14.7dp</dimen>
+    <dimen name="channel_details_item_height">55.3dp</dimen>
+    <dimen name="channelDetailsItemIndexTextSize">17sp</dimen>
+    <dimen name="channelDetailsItemNameTextSize">15sp</dimen>
+    <dimen name="channelDetailsItemNameTextMarginLeft">14.7dp</dimen>
+    <dimen name="musicServiceNameTextSize">20sp</dimen>
+    <dimen name="musicServiceGridMarginTop">25.3dp</dimen>
+    <dimen name="MusicServiceItemBottomDecoration">15.7dp</dimen>
+    <dimen name="selectDeviceSettingBtnMarginTop">3dp</dimen>
+    <dimen name="selectDeviceSettingBtnMarginRight">7dp</dimen>
+    <dimen name="selectDeviceItemMarginLeftRight">35dp</dimen>
+    <dimen name="selectDeviceNameTextSize">17sp</dimen>
+    <dimen name="selectDeviceItemHeight">40dp</dimen>
+    <dimen name="selectDeviceMarkIconMarginRight">10dp</dimen>
+
+    <dimen name="audioPlayerTopBarHeight">48dp</dimen>
+    <dimen name="audioPlayerPlaylistLoopMarginBothsides">12dp</dimen>
+    <dimen name="audioPlayerPlaylistLoopDescMarginLeft">15dp</dimen>
+    <dimen name="audioPlayerPlaylistLoopDescTextSize">16sp</dimen>
+    <dimen name="audioPlayerPlaylistAddBtnMarginRight">23.3dp</dimen>
+    <dimen name="audioPlayerPlaylistItemHeight">42dp</dimen>
+    <dimen name="audioPlayerPlaylistItemNameTextSize">@dimen/audioPlayerPlaylistLoopDescTextSize</dimen>
+    <dimen name="audioPlayerPlaylistItemSingerNameTextSize">12sp</dimen>
+    <dimen name="audioPlayerPlaylistItemSettingBtnMarginRight">@dimen/audioPlayerPlaylistAddBtnMarginRight</dimen>
+
+    <dimen name="music_service_subitem_listitem_desc_size">16dp</dimen>
+    <dimen name="musicServiceSubitemListitemHeight">57.3dp</dimen>
+    <dimen name="musicServiceSubitemListitemIconWidth">47.3dp</dimen>
+    <dimen name="musicServiceSubitemListitemIconHeight">@dimen/musicServiceSubitemListitemIconWidth</dimen>
+    <!-- circularprogressview start -->
+    <dimen name="cpv_default_size">60dp</dimen>
+    <dimen name="cpv_default_thickness">4dp</dimen>
+    <!-- circularprogressview end -->
+
+    <dimen name="SeekBarThumbSize">8dp</dimen>
+    <dimen name="SeekBarProgressDrawableHeight">2dp</dimen>
+<!--add by muxinwu end-->
+
+    <dimen name="bind_detail_list_height">40dp</dimen>
+    <dimen name="nav_header_height">184dp</dimen>
+    <dimen name="nav_header_vertical_spacing">56dp</dimen>
+    <dimen name="list_item_height">42dp</dimen>
+    <dimen name="list_divider_height">1dp</dimen>
+    <dimen name="actionbar_height">44dp</dimen>
+    <dimen name="actionbar_title_size">17sp</dimen>
+    <dimen name="list_item_textsize">15sp</dimen>
+
+
+    <dimen name="channel_detail_more_list_item_height">44dp</dimen>
+    <dimen name="channel_detail_more_list_item_cancel_height">50dp</dimen>
+    <dimen name="channel_detail_more_list_item_left_padding">14dp</dimen>
+    <dimen name="channel_detail_more_list_item_textsize">15sp</dimen>
+    <dimen name="channel_detail_more_list_title_textsize">13sp</dimen>
+
+
+    <dimen name="music_service_local_music_margin">8dp</dimen>
+    <dimen name="music_service_list_item_height">150.7dp</dimen>
+    <dimen name="music_service_list_item_icon">62.7dp</dimen>
+    <dimen name="music_service_list_item_text_operator_height">20dp</dimen>
+    <dimen name="music_service_list_item_icon_right_margin">12dp</dimen>
+    <dimen name="music_service_list_item_icon_bottom_margin">13.7dp</dimen>
+    <dimen name="music_service_list_item_desc_margin_right">48dp</dimen>
+    <dimen name="music_service_list_item_desc_margin_top">30dp</dimen>
+    <dimen name="music_service_list_item_desc_padding_left">2dp</dimen>
+    <dimen name="music_service_list_item_back_height">14dp</dimen>
+    <dimen name="music_service_list_item_text_operator_margin_top">8.3dp</dimen>
+    <dimen name="music_service_list_item_text_operator_size">13sp</dimen>
+
+    <dimen name="music_device_list_item_text_name_size">16sp</dimen>
+    <dimen name="channel_manager_titlebar_lefttext_size">13sp</dimen>
+
+    <!--<dimen name="activity_horizontal_margin">16dp</dimen>-->
+    <!--<dimen name="activity_vertical_margin">16dp</dimen>-->
+    <dimen name="text_size_13sp">13dp</dimen>
+    <dimen name="title_bar_height">54dp</dimen>
+    <dimen name="title_bar_padding_left">5dp</dimen>
+    <dimen name="musicSumItemServiceFreshItemHeight">39dp</dimen>
+
+    <dimen name="channel_add_titlebar_lefttext_size">14sp</dimen>
+
+    <dimen name="custom_dialog_cancel_size">18sp</dimen>
+
+
+    <dimen name="my_like_operator_left">8dp</dimen>
+    <dimen name="my_like_operator_right">10dp</dimen>
+    <dimen name="dot_image_margin_bottom">12dp</dimen>
+</resources>

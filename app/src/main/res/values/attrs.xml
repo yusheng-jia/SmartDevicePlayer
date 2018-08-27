@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundPathColor" format="color" />
+        <attr name="roundWidth" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textIsDisplayable" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="Titlebar">
+        <attr name="leftButtonText" format="string|reference" />
+        <attr name="leftButtonTextColor" format="color|reference" />
+        <attr name="leftButtonTextSize" format="dimension|reference" />
+        <attr name="leftButtonImage" format="color|reference" />
+
+        <attr name="titleText" format="string|reference" />
+        <attr name="titleColor" format="color|reference" />
+        <attr name="titleSize" format="dimension|reference" />
+
+        <attr name="rightButtonText" format="string|reference" />
+        <attr name="rightButtonTextColor" format="color|reference" />
+        <attr name="rightButtonTextSize" format="dimension|reference" />
+        <attr name="rightButtonImage" format="color|reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PaletteImageView">
+        <attr name="paletteRadius" format="dimension" />
+        <attr name="paletteSrc" format="reference" />
+        <attr name="palettePadding" format="dimension" />
+        <attr name="paletteOffsetX" format="dimension" />
+        <attr name="paletteOffsetY" format="dimension" />
+        <attr name="paletteShadowRadius" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="TagFlowLayout">
+        <attr name="auto_select_effect" format="boolean"></attr>
+        <attr name="max_select" format="integer"></attr>
+        <attr name="gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="rtl_RecyclerTabLayout">
+        <attr name="rtl_tabIndicatorColor" format="color"/>
+        <attr name="rtl_tabIndicatorHeight" format="dimension"/>
+
+        <attr name="rtl_tabBackground" format="reference"/>
+
+        <attr name="rtl_tabTextAppearance" format="reference"/>
+        <attr name="rtl_tabSelectedTextColor" format="color"/>
+
+        <attr name="rtl_tabOnScreenLimit" format="integer"/>
+        <attr name="rtl_tabMinWidth" format="dimension"/>
+        <attr name="rtl_tabMaxWidth" format="dimension"/>
+
+        <attr name="rtl_tabPaddingStart" format="dimension"/>
+        <attr name="rtl_tabPaddingTop" format="dimension"/>
+        <attr name="rtl_tabPaddingEnd" format="dimension"/>
+        <attr name="rtl_tabPaddingBottom" format="dimension"/>
+        <attr name="rtl_tabPadding" format="dimension"/>
+
+        <attr name="rtl_scrollEnabled" format="boolean"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalProgressBarWithNumber">
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_offset" format="dimension" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBarWidthNumber">
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AmountView">
+        <!-- 左右2边+-按钮的宽度 -->
+        <attr name="btnWidth" format="dimension" />
+        <!-- 中间TextView的宽度 -->
+        <attr name="tvWidth" format="dimension" />
+        <!--<attr name="tvColor" format="color"/>-->
+        <attr name="tvTextSize" format="dimension"/>
+        <attr name="btnTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>

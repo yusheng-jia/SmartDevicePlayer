@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/fragment_channel_detail_cover"
+        android:layout_width="@dimen/fragmentChannelDetailCoverWidth"
+        android:layout_height="@dimen/fragmentChannelDetailCoverHeight"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:layout_marginTop="@dimen/fragmentChannelDetailsToolbarMariginBottom"
+        android:background="@drawable/shape_gray_square_bg"
+        android:padding="0.5px"
+        android:src="@drawable/fragment_channel_detail_cover" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_channel_detail_operator"
+        android:layout_width="142.7dp"
+        android:layout_height="28dp"
+        android:layout_alignBottom="@id/fragment_channel_detail_cover"
+        android:layout_marginLeft="@dimen/fragmentChannelDetailAddBtnMarginLeft"
+        android:layout_toRightOf="@id/fragment_channel_detail_cover"
+        android:clickable="true">
+
+        <ImageButton
+            android:id="@+id/btn_fragment_channel_detail_add_enable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/btn_fragment_channel_detail_add" />
+
+        <RelativeLayout
+            android:id="@+id/rl_channel_added_success"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_channel_added_success"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/channel_detail_added_success" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/iv_channel_added_success"
+                android:text="@string/channel_added_success"
+                android:textColor="#a9a9a9" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_channel_operator_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_channel_detail_operator_refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/channel_detail_operator_refresh" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/iv_channel_detail_operator_refresh"
+                android:text="@string/add_to_mychannel"
+                android:textColor="@color/white_5" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/rl_channel_detail_operator"
+        android:layout_alignTop="@id/fragment_channel_detail_cover"
+        android:layout_marginBottom="@dimen/fragmentChannelDetailChannelNameMarginBottom"
+        android:layout_marginRight="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fragment_channel_detail_channel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/fragmentChannelDetailChannelNameTextColor"
+            android:textSize="@dimen/fragmentChannelDetailChannelNameTextSize" />
+
+        <TextView
+            android:id="@+id/fragment_channel_detail_singer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/fragmentChannelDetailAlbumNameTextColor"
+            android:textSize="@dimen/fragmentChannelDetailAlbumNameTextSize" />
+
+        <TextView
+            android:id="@+id/fragment_channel_detail_album_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/fragmentChannelDetailAlbumNameTextColor"
+            android:textSize="@dimen/fragmentChannelDetailAlbumNameTextSize" />
+
+        <TextView
+            android:id="@+id/tv_channel_last_sync_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/channel_last_sync_time"
+            android:textColor="@color/fragmentChannelDetailAlbumNameTextColor"
+            android:textSize="@dimen/fragmentChannelDetailAlbumNameTextSize" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/fragment_channel_detail_cover_bottom_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemIndicatorHeight"
+        android:layout_below="@id/fragment_channel_detail_cover"
+        android:layout_marginTop="@dimen/fragmentChannelDetailCoverBottomIndicatorMarginTop"
+        android:src="@color/mainTabBottomLineColor" />
+
+    <!--<com.ms.square.android.expandabletextview.ExpandableTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fragment_channel_detail_desc_expandabletextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/fragment_channel_detail_cover_bottom_indicator"
+        android:layout_marginTop="@dimen/fragmentChannelDetaildescExpandabletextviewMarginTop"
+        android:layout_marginLeft="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:layout_marginRight="@dimen/fragmentChannelDetailCoverMarginLeft"
+        expandableTextView:maxCollapsedLines="2"
+        expandableTextView:animAlphaStart="1"
+        app:expandDrawable="@drawable/expandabletextview_expanddrawable"
+        app:collapseDrawable="@drawable/expandabletextview_collapsedrawable"
+        >
+
+        <TextView
+            android:id="@id/expandable_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/fragmentChannelDetailExpandableTextSize"
+            android:textColor="@color/fragmentChannelDetailExpandableTextColor"/>
+
+        <ImageButton
+            android:id="@id/expand_collapse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_gravity="right|bottom"
+            android:background="@android:color/transparent"/>
+    </com.ms.square.android.expandabletextview.ExpandableTextView>-->
+
+
+    <!--            <TextView
+                    android:layout_below="@id/fragment_channel_detail_cover_bottom_indicator"
+                    android:layout_marginTop="@dimen/fragmentChannelDetaildescExpandabletextviewMarginTop"
+                    android:layout_marginLeft="@dimen/fragmentChannelDetailCoverMarginLeft"
+                    android:layout_marginRight="@dimen/fragmentChannelDetailCoverMarginLeft"
+                    android:id="@+id/fragment_channel_detail_desc_expandabletextview"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/itemIndicatorHeight"
+                    android:id="@+id/fragment_channel_detail_desc_expandabletextview_bottom_indicator"
+                    android:layout_below="@id/fragment_channel_detail_desc_expandabletextview"
+                    android:layout_marginTop="@dimen/fragmentChannelDetaildescExpandabletextviewMarginTop"
+                    android:src="@color/mainTabBottomLineColor"/>-->
+
+    <RelativeLayout
+        android:id="@+id/fragment_channel_detail_random_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_channel_detail_linearlayout_height"
+        android:layout_below="@id/fragment_channel_detail_cover_bottom_indicator"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/fragment_channel_detail_random_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/btn_fragment_channel_detail_random" />
+
+        <TextView
+            android:id="@+id/tv_random_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/fragment_channel_detail_random_btn"
+            android:background="@android:color/transparent"
+            android:text="@string/fragment_channel_detail_random"
+            android:textColor="@color/channel_detail_random_play_text_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_channel_album_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/tv_random_play"
+            android:textColor="@color/channel_detail_random_play_count_color"
+            android:textSize="11sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/fragment_channel_detail_linearlayout_bottom_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemIndicatorHeight"
+        android:layout_below="@id/fragment_channel_detail_random_linearlayout"
+        android:src="@color/mainTabBottomLineColor" />
+
+</RelativeLayout>

@@ -1,0 +1,1200 @@
+{
+  "jsonrpc": "2.0",
+  "id":1,
+  "result":[
+  {
+  "head_image_small": "http://musicdata.baidu.com/data2/pic/246709489/246709489.jpg@s_0,w_120",
+  "head_image_big": "http://musicdata.baidu.com/data2/pic/246709489/246709489.jpg@s_0,w_480",
+  "uri": "baidu:singer:任贤齐 ",
+  "name": "任贤齐 "
+},
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/af739e0109798366b9419230be5253ce/541222074/541222074.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/af739e0109798366b9419230be5253ce/541222074/541222074.jpg@s_0,w_480",
+    "uri": "baidu:singer:陈奕迅 ",
+    "name": "陈奕迅 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246709290/246709290.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246709290/246709290.jpg@s_0,w_480",
+    "uri": "baidu:singer:莫文蔚 ",
+    "name": "莫文蔚 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246709056/246709056.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246709056/246709056.jpg@s_0,w_480",
+    "uri": "baidu:singer:张信哲 ",
+    "name": "张信哲 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246667743/246667743.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246667743/246667743.jpg@s_0,w_480",
+    "uri": "baidu:singer:高安 ",
+    "name": "高安 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246585973/246585973.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246585973/246585973.jpg@s_0,w_480",
+    "uri": "baidu:singer:乌兰图雅 ",
+    "name": "乌兰图雅 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/99c89b46db96782245fa64d48ea8a08a/540354163/540354163.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/99c89b46db96782245fa64d48ea8a08a/540354163/540354163.jpg@s_0,w_480",
+    "uri": "baidu:singer:李健 ",
+    "name": "李健 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246584807/246584807.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246584807/246584807.jpg@s_0,w_480",
+    "uri": "baidu:singer:崔子格 ",
+    "name": "崔子格 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246708025/246708025.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246708025/246708025.jpg@s_0,w_480",
+    "uri": "baidu:singer:林俊杰 ",
+    "name": "林俊杰 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/A393900E5787D910653060C38E82AA66/252364271/252364271.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/A393900E5787D910653060C38E82AA66/252364271/252364271.jpg@s_0,w_480",
+    "uri": "baidu:singer:少儿歌曲 ",
+    "name": "少儿歌曲 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246707883/246707883.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246707883/246707883.jpg@s_0,w_480",
+    "uri": "baidu:singer:梁静茹 ",
+    "name": "梁静茹 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/478d4c1d608308b9c1ffd562d2301501/541639543/541639543.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/478d4c1d608308b9c1ffd562d2301501/541639543/541639543.jpg@s_0,w_480",
+    "uri": "baidu:singer:Alan Walker ",
+    "name": "Alan Walker "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246586325/246586325.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246586325/246586325.jpg@s_0,w_480",
+    "uri": "baidu:singer:许嵩 ",
+    "name": "许嵩 "
+  },
+  {
+    "head_image_small": "null",
+    "head_image_big": "null",
+    "uri": "baidu:singer:新雅室内乐 ",
+    "name": "新雅室内乐 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/5de4020c33b2404ad589ff5131479e1b/261054551/261054551.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/5de4020c33b2404ad589ff5131479e1b/261054551/261054551.jpg@s_0,w_480",
+    "uri": "baidu:singer:宋祖英 ",
+    "name": "宋祖英 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/67fb1f197cf694a429d2684752b60d9a/541854171/541854171.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/67fb1f197cf694a429d2684752b60d9a/541854171/541854171.jpg@s_0,w_480",
+    "uri": "baidu:singer:岑宁儿 ",
+    "name": "岑宁儿 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/07c51ce40aa7ebf333cb40591b00f5b0/542130374/542130374.png@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/07c51ce40aa7ebf333cb40591b00f5b0/542130374/542130374.png@s_0,w_480",
+    "uri": "baidu:singer:林忆莲 ",
+    "name": "林忆莲 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246937288/246937288.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246937288/246937288.jpg@s_0,w_480",
+    "uri": "baidu:singer:Michael Jackson ",
+    "name": "Michael Jackson "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246669614/246669614.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246669614/246669614.jpg@s_0,w_480",
+    "uri": "baidu:singer:周传雄 ",
+    "name": "周传雄 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86540393/86540393.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86540393/86540393.jpg@s_0,w_480",
+    "uri": "baidu:singer:宋冬野 ",
+    "name": "宋冬野 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246709740/246709740.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246709740/246709740.jpg@s_0,w_480",
+    "uri": "baidu:singer:王杰 ",
+    "name": "王杰 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/51734e72b779b86086052a5da798d56c/269993940/269993940.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/51734e72b779b86086052a5da798d56c/269993940/269993940.jpg@s_0,w_480",
+    "uri": "baidu:singer:贾乃亮 ",
+    "name": "贾乃亮 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/ff8a54b6819bc6227465f03a868169c8/274144087/274144087.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/ff8a54b6819bc6227465f03a868169c8/274144087/274144087.jpg@s_0,w_480",
+    "uri": "baidu:singer:老狼 ",
+    "name": "老狼 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246668318/246668318.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246668318/246668318.jpg@s_0,w_480",
+    "uri": "baidu:singer:李宗盛 ",
+    "name": "李宗盛 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246585831/246585831.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246585831/246585831.jpg@s_0,w_480",
+    "uri": "baidu:singer:孙露 ",
+    "name": "孙露 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246584633/246584633.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246584633/246584633.jpg@s_0,w_480",
+    "uri": "baidu:singer:DJ小可 ",
+    "name": "DJ小可 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/ce52b58848ff456cd4d48765f2f3dd1e/267770218/267770218.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/ce52b58848ff456cd4d48765f2f3dd1e/267770218/267770218.jpg@s_0,w_480",
+    "uri": "baidu:singer:阿杜 ",
+    "name": "阿杜 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/FB1E04384E51B2B374D7DAF2F0084C49/254484708/254484708.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/FB1E04384E51B2B374D7DAF2F0084C49/254484708/254484708.jpg@s_0,w_480",
+    "uri": "baidu:singer:The Chainsmokers ",
+    "name": "The Chainsmokers "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/ADDEE12C32FD25D6A776078CEBA7F557/252831851/252831851.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/ADDEE12C32FD25D6A776078CEBA7F557/252831851/252831851.jpg@s_0,w_480",
+    "uri": "baidu:singer:金南玲 ",
+    "name": "金南玲 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246709908/246709908.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246709908/246709908.jpg@s_0,w_480",
+    "uri": "baidu:singer:张国荣 ",
+    "name": "张国荣 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/1c22bd6b878666680877b767c252ac9c/540804793/540804793.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/1c22bd6b878666680877b767c252ac9c/540804793/540804793.jpg@s_0,w_480",
+    "uri": "baidu:singer:Yanni ",
+    "name": "Yanni "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246707812/246707812.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246707812/246707812.jpg@s_0,w_480",
+    "uri": "baidu:singer:李玉刚 ",
+    "name": "李玉刚 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/0618490ead90d1e3a1ec9f4476fae7c9/542058017/542058017.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/0618490ead90d1e3a1ec9f4476fae7c9/542058017/542058017.jpg@s_0,w_480",
+    "uri": "baidu:singer:周深 ",
+    "name": "周深 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/bba625524b5b07c1f71fa6af88aac972/542056761/542056761.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/bba625524b5b07c1f71fa6af88aac972/542056761/542056761.jpg@s_0,w_480",
+    "uri": "baidu:singer:陈淑桦 ",
+    "name": "陈淑桦 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/262900349/262900349.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/262900349/262900349.jpg@s_0,w_480",
+    "uri": "baidu:singer:徐佳莹 ",
+    "name": "徐佳莹 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246709767/246709767.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246709767/246709767.jpg@s_0,w_480",
+    "uri": "baidu:singer:王力宏 ",
+    "name": "王力宏 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246586345/246586345.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246586345/246586345.jpg@s_0,w_480",
+    "uri": "baidu:singer:许巍 ",
+    "name": "许巍 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/2CB72577F457B63BA74E7283CC8E9FE1/252055689/252055689.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/2CB72577F457B63BA74E7283CC8E9FE1/252055689/252055689.jpg@s_0,w_480",
+    "uri": "baidu:singer:宇桐非 ",
+    "name": "宇桐非 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/4494fb923fed85fa94694a0df9502876/260080076/260080076.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/4494fb923fed85fa94694a0df9502876/260080076/260080076.jpg@s_0,w_480",
+    "uri": "baidu:singer:Beyond ",
+    "name": "Beyond "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/95042d22ed65028bff06b5d054faceaf/542130817/542130817.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/95042d22ed65028bff06b5d054faceaf/542130817/542130817.jpg@s_0,w_480",
+    "uri": "baidu:singer:林志炫 ",
+    "name": "林志炫 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/6E1FB3958EFF8B0EF33AE810B4092CBE/252052235/252052235.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/6E1FB3958EFF8B0EF33AE810B4092CBE/252052235/252052235.jpg@s_0,w_480",
+    "uri": "baidu:singer:田震 ",
+    "name": "田震 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246937611/246937611.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246937611/246937611.jpg@s_0,w_480",
+    "uri": "baidu:singer:Two Steps From Hell ",
+    "name": "Two Steps From Hell "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/d235e53d6a3c309981cf6455d606132f/542130426/542130426.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/d235e53d6a3c309981cf6455d606132f/542130426/542130426.jpg@s_0,w_480",
+    "uri": "baidu:singer:彭佳慧 ",
+    "name": "彭佳慧 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246680918/246680918.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246680918/246680918.jpg@s_0,w_480",
+    "uri": "baidu:singer:容祖儿 ",
+    "name": "容祖儿 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246668004/246668004.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246668004/246668004.jpg@s_0,w_480",
+    "uri": "baidu:singer:筷子兄弟 ",
+    "name": "筷子兄弟 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/e0606a30358b0fc62841a7fdc46accbe/537898718/537898718.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/e0606a30358b0fc62841a7fdc46accbe/537898718/537898718.jpg@s_0,w_480",
+    "uri": "baidu:singer:龙飞 ",
+    "name": "龙飞 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/52DBD688A3CEECE8232FC4829CCDB2A9/252585210/252585210.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/52DBD688A3CEECE8232FC4829CCDB2A9/252585210/252585210.jpg@s_0,w_480",
+    "uri": "baidu:singer:钢琴曲 ",
+    "name": "钢琴曲 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246680442/246680442.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246680442/246680442.jpg@s_0,w_480",
+    "uri": "baidu:singer:刘惜君 ",
+    "name": "刘惜君 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/b78856798d5137cf530926e60f8fb166/260256392/260256392.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/b78856798d5137cf530926e60f8fb166/260256392/260256392.jpg@s_0,w_480",
+    "uri": "baidu:singer:赵传 ",
+    "name": "赵传 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246667237/246667237.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246667237/246667237.jpg@s_0,w_480",
+    "uri": "baidu:singer:G.E.M.邓紫棋 ",
+    "name": "G.E.M.邓紫棋 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/b0021a0f7084fd4c4692e26889dee67e/268589720/268589720.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/b0021a0f7084fd4c4692e26889dee67e/268589720/268589720.jpg@s_0,w_480",
+    "uri": "baidu:singer:陈粒 ",
+    "name": "陈粒 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246709865/246709865.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246709865/246709865.jpg@s_0,w_480",
+    "uri": "baidu:singer:杨钰莹 ",
+    "name": "杨钰莹 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/595C1462C3604533C24269DC437897DF/252348356/252348356.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/595C1462C3604533C24269DC437897DF/252348356/252348356.jpg@s_0,w_480",
+    "uri": "baidu:singer:云飞 ",
+    "name": "云飞 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/b663c6bb4dd9a5e28d1d7acb24c6c27c/537897699/537897699.png@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/b663c6bb4dd9a5e28d1d7acb24c6c27c/537897699/537897699.png@s_0,w_480",
+    "uri": "baidu:singer:海潮哥 ",
+    "name": "海潮哥 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86404984/86404984.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86404984/86404984.jpg@s_0,w_480",
+    "uri": "baidu:singer:李娜 ",
+    "name": "李娜 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246710007/246710007.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246710007/246710007.jpg@s_0,w_480",
+    "uri": "baidu:singer:张震岳 ",
+    "name": "张震岳 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246707277/246707277.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246707277/246707277.jpg@s_0,w_480",
+    "uri": "baidu:singer:成龙 ",
+    "name": "成龙 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/c0aeab4d78941d87ced9c65d731a0582/260262461/260262461.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/c0aeab4d78941d87ced9c65d731a0582/260262461/260262461.jpg@s_0,w_480",
+    "uri": "baidu:singer:梅艳芳 ",
+    "name": "梅艳芳 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246584912/246584912.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246584912/246584912.jpg@s_0,w_480",
+    "uri": "baidu:singer:费玉清 ",
+    "name": "费玉清 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/1FBD613610B4C22B70E141A75F6518D3/252826181/252826181.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/1FBD613610B4C22B70E141A75F6518D3/252826181/252826181.jpg@s_0,w_480",
+    "uri": "baidu:singer:贵族乐团 ",
+    "name": "贵族乐团 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/3986b4dd7b2147804a6424447bf56f89/539814536/539814536.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/3986b4dd7b2147804a6424447bf56f89/539814536/539814536.jpg@s_0,w_480",
+    "uri": "baidu:singer:郑钧 ",
+    "name": "郑钧 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/A872E336421DD0F36D59F4524A715FDB/252052900/252052900.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/A872E336421DD0F36D59F4524A715FDB/252052900/252052900.jpg@s_0,w_480",
+    "uri": "baidu:singer:高枫 ",
+    "name": "高枫 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/F882BE5B2496B91673815D774489208D/252053338/252053338.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/F882BE5B2496B91673815D774489208D/252053338/252053338.jpg@s_0,w_480",
+    "uri": "baidu:singer:李晓杰 ",
+    "name": "李晓杰 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/124801458/124801458.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/124801458/124801458.jpg@s_0,w_480",
+    "uri": "baidu:singer:鹿晗 ",
+    "name": "鹿晗 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/F1A821A5320EE98719C6D9CC3FB961E6/256534269/256534269.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/F1A821A5320EE98719C6D9CC3FB961E6/256534269/256534269.jpg@s_0,w_480",
+    "uri": "baidu:singer:Martin Garrix ",
+    "name": "Martin Garrix "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246585018/246585018.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246585018/246585018.jpg@s_0,w_480",
+    "uri": "baidu:singer:降央卓玛 ",
+    "name": "降央卓玛 "
+  },
+  {
+    "head_image_small": "null",
+    "head_image_big": "null",
+    "uri": "baidu:singer:民族乐团 ",
+    "name": "民族乐团 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/da14c41aaf25d574ce6b28e8d8013d53/7382244419/7382244419.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/da14c41aaf25d574ce6b28e8d8013d53/7382244419/7382244419.jpg@s_0,w_480",
+    "uri": "baidu:singer:黄渤 ",
+    "name": "黄渤 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86504112/86504112.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86504112/86504112.jpg@s_0,w_480",
+    "uri": "baidu:singer:王二妮 ",
+    "name": "王二妮 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/251967088/251967088.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/251967088/251967088.jpg@s_0,w_480",
+    "uri": "baidu:singer:李春波 ",
+    "name": "李春波 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246707052/246707052.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246707052/246707052.jpg@s_0,w_480",
+    "uri": "baidu:singer:陈小春 ",
+    "name": "陈小春 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/81ca1375940742aa83931917e405a501/266601521/266601521.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/81ca1375940742aa83931917e405a501/266601521/266601521.jpg@s_0,w_480",
+    "uri": "baidu:singer:汪苏泷 ",
+    "name": "汪苏泷 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246667932/246667932.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246667932/246667932.jpg@s_0,w_480",
+    "uri": "baidu:singer:玖月奇迹 ",
+    "name": "玖月奇迹 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86384665/86384665.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86384665/86384665.jpg@s_0,w_480",
+    "uri": "baidu:singer:Whitney Houston ",
+    "name": "Whitney Houston "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246586431/246586431.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246586431/246586431.jpg@s_0,w_480",
+    "uri": "baidu:singer:羽泉 ",
+    "name": "羽泉 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/192EFA6A23D65B87FE3FCF37CAA9E319/252056243/252056243.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/192EFA6A23D65B87FE3FCF37CAA9E319/252056243/252056243.jpg@s_0,w_480",
+    "uri": "baidu:singer:张也 ",
+    "name": "张也 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246669483/246669483.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246669483/246669483.jpg@s_0,w_480",
+    "uri": "baidu:singer:杨宗纬 ",
+    "name": "杨宗纬 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246586036/246586036.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246586036/246586036.jpg@s_0,w_480",
+    "uri": "baidu:singer:谢霆锋 ",
+    "name": "谢霆锋 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86426237/86426237.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86426237/86426237.jpg@s_0,w_480",
+    "uri": "baidu:singer:金志文 ",
+    "name": "金志文 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246584718/246584718.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246584718/246584718.jpg@s_0,w_480",
+    "uri": "baidu:singer:蔡健雅 ",
+    "name": "蔡健雅 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/B4F2644ED731E432B916233F8EDCFB9A/252057857/252057857.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/B4F2644ED731E432B916233F8EDCFB9A/252057857/252057857.jpg@s_0,w_480",
+    "uri": "baidu:singer:张冬玲 ",
+    "name": "张冬玲 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246681453/246681453.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246681453/246681453.jpg@s_0,w_480",
+    "uri": "baidu:singer:辛晓琪 ",
+    "name": "辛晓琪 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/3EB3797F0B29D0D7A1E4DEA5187BE4B5/252068334/252068334.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/3EB3797F0B29D0D7A1E4DEA5187BE4B5/252068334/252068334.jpg@s_0,w_480",
+    "uri": "baidu:singer:卢冠廷 ",
+    "name": "卢冠廷 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/245938641/245938641.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/245938641/245938641.jpg@s_0,w_480",
+    "uri": "baidu:singer:白小白 ",
+    "name": "白小白 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246667527/246667527.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246667527/246667527.jpg@s_0,w_480",
+    "uri": "baidu:singer:陈瑞 ",
+    "name": "陈瑞 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/54E446D3DF2B54851E0E5E6D026206F4/252090513/252090513.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/54E446D3DF2B54851E0E5E6D026206F4/252090513/252090513.jpg@s_0,w_480",
+    "uri": "baidu:singer:Liz Story ",
+    "name": "Liz Story "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246584869/246584869.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246584869/246584869.jpg@s_0,w_480",
+    "uri": "baidu:singer:凤凰传奇 ",
+    "name": "凤凰传奇 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/602a4c8ed96c51a393065793b5c3522e/259858280/259858280.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/602a4c8ed96c51a393065793b5c3522e/259858280/259858280.jpg@s_0,w_480",
+    "uri": "baidu:singer:好妹妹乐队 ",
+    "name": "好妹妹乐队 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/d16e4b1fcbea97a446512d4a4ba7abe7/544173112/544173112.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/d16e4b1fcbea97a446512d4a4ba7abe7/544173112/544173112.jpg@s_0,w_480",
+    "uri": "baidu:singer:Twins ",
+    "name": "Twins "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246668439/246668439.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246668439/246668439.jpg@s_0,w_480",
+    "uri": "baidu:singer:王菲 ",
+    "name": "王菲 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246585143/246585143.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246585143/246585143.jpg@s_0,w_480",
+    "uri": "baidu:singer:霍尊 ",
+    "name": "霍尊 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246584942/246584942.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246584942/246584942.jpg@s_0,w_480",
+    "uri": "baidu:singer:龚玥 ",
+    "name": "龚玥 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246585994/246585994.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246585994/246585994.jpg@s_0,w_480",
+    "uri": "baidu:singer:伍佰 ",
+    "name": "伍佰 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246669552/246669552.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246669552/246669552.jpg@s_0,w_480",
+    "uri": "baidu:singer:张学友 ",
+    "name": "张学友 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246707714/246707714.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246707714/246707714.jpg@s_0,w_480",
+    "uri": "baidu:singer:金莎 ",
+    "name": "金莎 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86402238/86402238.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86402238/86402238.jpg@s_0,w_480",
+    "uri": "baidu:singer:Mariah Carey ",
+    "name": "Mariah Carey "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246706974/246706974.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246706974/246706974.jpg@s_0,w_480",
+    "uri": "baidu:singer:蔡依林 ",
+    "name": "蔡依林 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246585074/246585074.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246585074/246585074.jpg@s_0,w_480",
+    "uri": "baidu:singer:后弦 ",
+    "name": "后弦 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/BE8AAA169E98EF8E00A1A33C4E3CFCD4/252052527/252052527.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/BE8AAA169E98EF8E00A1A33C4E3CFCD4/252052527/252052527.jpg@s_0,w_480",
+    "uri": "baidu:singer:腾格尔 ",
+    "name": "腾格尔 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86426071/86426071.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86426071/86426071.jpg@s_0,w_480",
+    "uri": "baidu:singer:阿宝 ",
+    "name": "阿宝 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246586114/246586114.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246586114/246586114.jpg@s_0,w_480",
+    "uri": "baidu:singer:郁可唯 ",
+    "name": "郁可唯 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/74f17c00b1a2584c0a1fe1832da40baa/543971744/543971744.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/74f17c00b1a2584c0a1fe1832da40baa/543971744/543971744.jpg@s_0,w_480",
+    "uri": "baidu:singer:刘欢 ",
+    "name": "刘欢 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246584689/246584689.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246584689/246584689.jpg@s_0,w_480",
+    "uri": "baidu:singer:蔡琴 ",
+    "name": "蔡琴 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86391684/86391684.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86391684/86391684.jpg@s_0,w_480",
+    "uri": "baidu:singer:陈冠希 ",
+    "name": "陈冠希 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/8d9ba9b72bc42e865b99296e61e07841/267938148/267938148.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/8d9ba9b72bc42e865b99296e61e07841/267938148/267938148.jpg@s_0,w_480",
+    "uri": "baidu:singer:品冠 ",
+    "name": "品冠 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246709341/246709341.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246709341/246709341.jpg@s_0,w_480",
+    "uri": "baidu:singer:那英 ",
+    "name": "那英 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86403166/86403166.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86403166/86403166.jpg@s_0,w_480",
+    "uri": "baidu:singer:Céline Dion ",
+    "name": "Céline Dion "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/5F44C9E2E30554EAC0BA7E9A5E081C3B/252053776/252053776.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/5F44C9E2E30554EAC0BA7E9A5E081C3B/252053776/252053776.jpg@s_0,w_480",
+    "uri": "baidu:singer:梦鸽 ",
+    "name": "梦鸽 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246586247/246586247.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246586247/246586247.jpg@s_0,w_480",
+    "uri": "baidu:singer:郑伊健 ",
+    "name": "郑伊健 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/114921545/114921545.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/114921545/114921545.jpg@s_0,w_480",
+    "uri": "baidu:singer:曹轩宾 ",
+    "name": "曹轩宾 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/d8f1341b34ac6241859eeecab0ec4411/544650301/544650301.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/d8f1341b34ac6241859eeecab0ec4411/544650301/544650301.jpg@s_0,w_480",
+    "uri": "baidu:singer:徐小凤 ",
+    "name": "徐小凤 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/5ADC0F0F8B83DB763D55E70ABD85529C/252052168/252052168.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/5ADC0F0F8B83DB763D55E70ABD85529C/252052168/252052168.jpg@s_0,w_480",
+    "uri": "baidu:singer:阎维文 ",
+    "name": "阎维文 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/E096635BF63E59BB25F1E4BF67AB1231/252613370/252613370.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/E096635BF63E59BB25F1E4BF67AB1231/252613370/252613370.jpg@s_0,w_480",
+    "uri": "baidu:singer:佛教音乐 ",
+    "name": "佛教音乐 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246709570/246709570.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246709570/246709570.jpg@s_0,w_480",
+    "uri": "baidu:singer:孙楠 ",
+    "name": "孙楠 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/D6423EBDDC68E1B590D0C30685C5D7E6/252138909/252138909.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/D6423EBDDC68E1B590D0C30685C5D7E6/252138909/252138909.jpg@s_0,w_480",
+    "uri": "baidu:singer:Jim Brickman ",
+    "name": "Jim Brickman "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/306767fab9e01dfc679abd66c9145e9c/540360491/540360491.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/306767fab9e01dfc679abd66c9145e9c/540360491/540360491.jpg@s_0,w_480",
+    "uri": "baidu:singer:Taylor Swift ",
+    "name": "Taylor Swift "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246937342/246937342.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246937342/246937342.jpg@s_0,w_480",
+    "uri": "baidu:singer:Pitbull ",
+    "name": "Pitbull "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/6e07098a33d46d107bb149a3ccfd6e44/274990815/274990815.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/6e07098a33d46d107bb149a3ccfd6e44/274990815/274990815.jpg@s_0,w_480",
+    "uri": "baidu:singer:黄龄 ",
+    "name": "黄龄 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86382550/86382550.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86382550/86382550.jpg@s_0,w_480",
+    "uri": "baidu:singer:毛宁 ",
+    "name": "毛宁 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/6EFB3CF1F100417BDA34045CCB46ABD7/252060839/252060839.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/6EFB3CF1F100417BDA34045CCB46ABD7/252060839/252060839.jpg@s_0,w_480",
+    "uri": "baidu:singer:李丽芬 ",
+    "name": "李丽芬 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246667575/246667575.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246667575/246667575.jpg@s_0,w_480",
+    "uri": "baidu:singer:大庆小芳 ",
+    "name": "大庆小芳 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/159ea3dc9488228550ec67b279e8f105/268797487/268797487.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/159ea3dc9488228550ec67b279e8f105/268797487/268797487.jpg@s_0,w_480",
+    "uri": "baidu:singer:韩磊 ",
+    "name": "韩磊 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/A4FC95A0E204240A5FBA9ADF095D0C05/252052194/252052194.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/A4FC95A0E204240A5FBA9ADF095D0C05/252052194/252052194.jpg@s_0,w_480",
+    "uri": "baidu:singer:黄品源 ",
+    "name": "黄品源 "
+  },
+  {
+    "head_image_small": "null",
+    "head_image_big": "null",
+    "uri": "baidu:singer:刘飞&陈广生 ",
+    "name": "刘飞&陈广生 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/bb09b72b630b4b755f0286d72488eede/555673804/555673804.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/bb09b72b630b4b755f0286d72488eede/555673804/555673804.jpg@s_0,w_480",
+    "uri": "baidu:singer:二珂 ",
+    "name": "二珂 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246669117/246669117.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246669117/246669117.jpg@s_0,w_480",
+    "uri": "baidu:singer:王若琳 ",
+    "name": "王若琳 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/8D91CA4B85AD8760C8A5962332C19509/252122872/252122872.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/8D91CA4B85AD8760C8A5962332C19509/252122872/252122872.jpg@s_0,w_480",
+    "uri": "baidu:singer:Barbra Streisand ",
+    "name": "Barbra Streisand "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/55196bf49b9a838c0270c0f9f6623348/566930575/566930575.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/55196bf49b9a838c0270c0f9f6623348/566930575/566930575.jpg@s_0,w_480",
+    "uri": "baidu:singer:SNH48 ",
+    "name": "SNH48 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246586309/246586309.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246586309/246586309.jpg@s_0,w_480",
+    "uri": "baidu:singer:许茹芸 ",
+    "name": "许茹芸 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/c1459ab547ec3e51322e172e70354458/115415158/115415158.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/c1459ab547ec3e51322e172e70354458/115415158/115415158.jpg@s_0,w_480",
+    "uri": "baidu:singer:Westlife ",
+    "name": "Westlife "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/7cc7d65cccc4842874f03ec590ab177a/274914027/274914027.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/7cc7d65cccc4842874f03ec590ab177a/274914027/274914027.jpg@s_0,w_480",
+    "uri": "baidu:singer:任素汐 ",
+    "name": "任素汐 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246584891/246584891.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246584891/246584891.jpg@s_0,w_480",
+    "uri": "baidu:singer:冯曦妤 ",
+    "name": "冯曦妤 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/F77CB63CA0D20E0C89908B2B41541DEB/252053118/252053118.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/F77CB63CA0D20E0C89908B2B41541DEB/252053118/252053118.jpg@s_0,w_480",
+    "uri": "baidu:singer:徐怀钰 ",
+    "name": "徐怀钰 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/afec3678c5605c42ae3b536ba7aa6c64/268589605/268589605.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/afec3678c5605c42ae3b536ba7aa6c64/268589605/268589605.jpg@s_0,w_480",
+    "uri": "baidu:singer:谭维维 ",
+    "name": "谭维维 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/6c45625077a8d5f4413e5e6be42b7e51/542130976/542130976.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/6c45625077a8d5f4413e5e6be42b7e51/542130976/542130976.jpg@s_0,w_480",
+    "uri": "baidu:singer:张碧晨 ",
+    "name": "张碧晨 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/e71ac338e5dbeaca2377853c944f736f/266638432/266638432.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/e71ac338e5dbeaca2377853c944f736f/266638432/266638432.jpg@s_0,w_480",
+    "uri": "baidu:singer:T榜 ",
+    "name": "T榜 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/130d20d501a6b5d6d3f4b2409052d86c/261622358/261622358.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/130d20d501a6b5d6d3f4b2409052d86c/261622358/261622358.jpg@s_0,w_480",
+    "uri": "baidu:singer:郭峰 ",
+    "name": "郭峰 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246709516/246709516.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246709516/246709516.jpg@s_0,w_480",
+    "uri": "baidu:singer:水木年华 ",
+    "name": "水木年华 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246585626/246585626.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246585626/246585626.jpg@s_0,w_480",
+    "uri": "baidu:singer:罗文 ",
+    "name": "罗文 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/8C2C5C81A130B55DE45FA28F9D284479/252052857/252052857.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/8C2C5C81A130B55DE45FA28F9D284479/252052857/252052857.jpg@s_0,w_480",
+    "uri": "baidu:singer:戴娆 ",
+    "name": "戴娆 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/d455f70716b016d3d4cc9cfd14c4b4d2/271931488/271931488.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/d455f70716b016d3d4cc9cfd14c4b4d2/271931488/271931488.jpg@s_0,w_480",
+    "uri": "baidu:singer:洛天依 ",
+    "name": "洛天依 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/AE6D18EF9E975CDEF2180133892EFA5D/252909312/252909312.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/AE6D18EF9E975CDEF2180133892EFA5D/252909312/252909312.jpg@s_0,w_480",
+    "uri": "baidu:singer:回音哥 ",
+    "name": "回音哥 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/B84A67AD3E0318D6CCD3C42879F65E37/252393436/252393436.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/B84A67AD3E0318D6CCD3C42879F65E37/252393436/252393436.jpg@s_0,w_480",
+    "uri": "baidu:singer:Yiruma ",
+    "name": "Yiruma "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/704562bab67f591e169fbda6551cec8b/271897575/271897575.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/704562bab67f591e169fbda6551cec8b/271897575/271897575.jpg@s_0,w_480",
+    "uri": "baidu:singer:任妙音 ",
+    "name": "任妙音 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86400167/86400167.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86400167/86400167.jpg@s_0,w_480",
+    "uri": "baidu:singer:Avril Lavigne ",
+    "name": "Avril Lavigne "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246707754/246707754.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246707754/246707754.jpg@s_0,w_480",
+    "uri": "baidu:singer:李宇春 ",
+    "name": "李宇春 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/be8fe29d7774d7fbcaebf5747a2d4295/275593146/275593146.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/be8fe29d7774d7fbcaebf5747a2d4295/275593146/275593146.jpg@s_0,w_480",
+    "uri": "baidu:singer:娃娃 ",
+    "name": "娃娃 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86406525/86406525.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86406525/86406525.jpg@s_0,w_480",
+    "uri": "baidu:singer:牛奶咖啡 ",
+    "name": "牛奶咖啡 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/A8C533673354A8C7EDC384ABE309A854/252052202/252052202.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/A8C533673354A8C7EDC384ABE309A854/252052202/252052202.jpg@s_0,w_480",
+    "uri": "baidu:singer:杜德伟 ",
+    "name": "杜德伟 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/C38604C4D736BE9E878BC3EFFEDC7CC0/252052316/252052316.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/C38604C4D736BE9E878BC3EFFEDC7CC0/252052316/252052316.jpg@s_0,w_480",
+    "uri": "baidu:singer:张艾嘉 ",
+    "name": "张艾嘉 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86390901/86390901.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86390901/86390901.jpg@s_0,w_480",
+    "uri": "baidu:singer:潘美辰 ",
+    "name": "潘美辰 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246681045/246681045.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246681045/246681045.jpg@s_0,w_480",
+    "uri": "baidu:singer:苏慧伦 ",
+    "name": "苏慧伦 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86453213/86453213.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86453213/86453213.jpg@s_0,w_480",
+    "uri": "baidu:singer:门丽 ",
+    "name": "门丽 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/115091818/115091818.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/115091818/115091818.jpg@s_0,w_480",
+    "uri": "baidu:singer:Britney Spears ",
+    "name": "Britney Spears "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/106116593/106116593.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/106116593/106116593.jpg@s_0,w_480",
+    "uri": "baidu:singer:苏勒亚其其格 ",
+    "name": "苏勒亚其其格 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/A3ECA28631FDAA4798DA7CC6A94B81B2/252607849/252607849.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/A3ECA28631FDAA4798DA7CC6A94B81B2/252607849/252607849.jpg@s_0,w_480",
+    "uri": "baidu:singer:French Montana ",
+    "name": "French Montana "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246667191/246667191.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246667191/246667191.jpg@s_0,w_480",
+    "uri": "baidu:singer:A-Lin ",
+    "name": "A-Lin "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86609769/86609769.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86609769/86609769.jpg@s_0,w_480",
+    "uri": "baidu:singer:纯音乐 ",
+    "name": "纯音乐 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/94C77FAADE0A19B3487A949A281F6DEE/252052234/252052234.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/94C77FAADE0A19B3487A949A281F6DEE/252052234/252052234.jpg@s_0,w_480",
+    "uri": "baidu:singer:齐豫 ",
+    "name": "齐豫 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86424777/86424777.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86424777/86424777.jpg@s_0,w_480",
+    "uri": "baidu:singer:Lenka ",
+    "name": "Lenka "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86388249/86388249.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86388249/86388249.jpg@s_0,w_480",
+    "uri": "baidu:singer:万芳 ",
+    "name": "万芳 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86610183/86610183.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86610183/86610183.jpg@s_0,w_480",
+    "uri": "baidu:singer:Backstreet Boys ",
+    "name": "Backstreet Boys "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246585543/246585543.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246585543/246585543.jpg@s_0,w_480",
+    "uri": "baidu:singer:罗百吉 ",
+    "name": "罗百吉 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246586449/246586449.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246586449/246586449.jpg@s_0,w_480",
+    "uri": "baidu:singer:庾澄庆 ",
+    "name": "庾澄庆 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/CA23FF0026743C2494029CCF19E0C156/252052803/252052803.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/CA23FF0026743C2494029CCF19E0C156/252052803/252052803.jpg@s_0,w_480",
+    "uri": "baidu:singer:潘越云 ",
+    "name": "潘越云 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/E34EA459855DC7EEE0A6738A0369973B/253285522/253285522.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/E34EA459855DC7EEE0A6738A0369973B/253285522/253285522.jpg@s_0,w_480",
+    "uri": "baidu:singer:Dj小鱼儿 ",
+    "name": "Dj小鱼儿 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/3d1705010dc4187b706c4597d5e82a60/542130357/542130357.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/3d1705010dc4187b706c4597d5e82a60/542130357/542130357.jpg@s_0,w_480",
+    "uri": "baidu:singer:光良 ",
+    "name": "光良 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/music/7A61D5A673ADED984A14C1D493B84232/254893238/254893238.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/music/7A61D5A673ADED984A14C1D493B84232/254893238/254893238.jpg@s_0,w_480",
+    "uri": "baidu:singer:Eric 周兴哲 ",
+    "name": "Eric 周兴哲 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246680097/246680097.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246680097/246680097.jpg@s_0,w_480",
+    "uri": "baidu:singer:胡夏 ",
+    "name": "胡夏 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/eadf415d04f3ab42784441a27e882a12/266327780/266327780.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/eadf415d04f3ab42784441a27e882a12/266327780/266327780.jpg@s_0,w_480",
+    "uri": "baidu:singer:郁钧剑 ",
+    "name": "郁钧剑 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86380337/86380337.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86380337/86380337.jpg@s_0,w_480",
+    "uri": "baidu:singer:卢巧音 ",
+    "name": "卢巧音 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/a4aa76176f9c3e15c7489b090836b280/542130620/542130620.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/a4aa76176f9c3e15c7489b090836b280/542130620/542130620.jpg@s_0,w_480",
+    "uri": "baidu:singer:张杰 ",
+    "name": "张杰 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/264856075/264856075.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/264856075/264856075.jpg@s_0,w_480",
+    "uri": "baidu:singer:彭丽嘉 ",
+    "name": "彭丽嘉 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/cb94df91cd7a0053b0b1271c989a4c3d/261111927/261111927.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/cb94df91cd7a0053b0b1271c989a4c3d/261111927/261111927.jpg@s_0,w_480",
+    "uri": "baidu:singer:Richard Clayderman ",
+    "name": "Richard Clayderman "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/68f5600b1f907822874f063eacd9eed3/274962059/274962059.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/68f5600b1f907822874f063eacd9eed3/274962059/274962059.jpg@s_0,w_480",
+    "uri": "baidu:singer:大鹏 ",
+    "name": "大鹏 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/23372f2991e404fbb9d25b78d41c2af7/558377468/558377468.JPG@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/23372f2991e404fbb9d25b78d41c2af7/558377468/558377468.JPG@s_0,w_480",
+    "uri": "baidu:singer:小瑞 ",
+    "name": "小瑞 "
+  },
+  {
+    "head_image_small": "null",
+    "head_image_big": "null",
+    "uri": "baidu:singer:新韵传音 ",
+    "name": "新韵传音 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/d67e68f7d3f0a9cd74f3a850e050e98f/260261164/260261164.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/d67e68f7d3f0a9cd74f3a850e050e98f/260261164/260261164.jpg@s_0,w_480",
+    "uri": "baidu:singer:夏天Alex ",
+    "name": "夏天Alex "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/115416278/115416278.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/115416278/115416278.jpg@s_0,w_480",
+    "uri": "baidu:singer:乌兰托娅 ",
+    "name": "乌兰托娅 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/450d1f85d1d9e0f87a8a6fc69f3ab57a/303643602/303643602.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/450d1f85d1d9e0f87a8a6fc69f3ab57a/303643602/303643602.jpg@s_0,w_480",
+    "uri": "baidu:singer:Sia ",
+    "name": "Sia "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86518806/86518806.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86518806/86518806.jpg@s_0,w_480",
+    "uri": "baidu:singer:阿肆 ",
+    "name": "阿肆 "
+  },
+  {
+    "head_image_small": "null",
+    "head_image_big": "null",
+    "uri": "baidu:singer:余晖&林建明 ",
+    "name": "余晖&林建明 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/cb243b70b1191762a3170f415a584d2f/559985931/559985931.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/cb243b70b1191762a3170f415a584d2f/559985931/559985931.jpg@s_0,w_480",
+    "uri": "baidu:singer:南征北战NZBZ ",
+    "name": "南征北战NZBZ "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86396152/86396152.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86396152/86396152.jpg@s_0,w_480",
+    "uri": "baidu:singer:黑龙 ",
+    "name": "黑龙 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246669444/246669444.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246669444/246669444.jpg@s_0,w_480",
+    "uri": "baidu:singer:薛之谦 ",
+    "name": "薛之谦 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246668350/246668350.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246668350/246668350.jpg@s_0,w_480",
+    "uri": "baidu:singer:祁隆 ",
+    "name": "祁隆 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/07ec751a328b56305a2a6edc440ee74a/542130675/542130675.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/07ec751a328b56305a2a6edc440ee74a/542130675/542130675.jpg@s_0,w_480",
+    "uri": "baidu:singer:赵雷 ",
+    "name": "赵雷 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/ef48ad0b18aafcff40ed9877a603ff22/267376192/267376192.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/ef48ad0b18aafcff40ed9877a603ff22/267376192/267376192.jpg@s_0,w_480",
+    "uri": "baidu:singer:齐秦 ",
+    "name": "齐秦 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/4e2f99725085e29afbe3004b34e3b3ea/566870515/566870515.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/4e2f99725085e29afbe3004b34e3b3ea/566870515/566870515.jpg@s_0,w_480",
+    "uri": "baidu:singer:龙梅子 ",
+    "name": "龙梅子 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246669218/246669218.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246669218/246669218.jpg@s_0,w_480",
+    "uri": "baidu:singer:小蓓蕾组合 ",
+    "name": "小蓓蕾组合 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246708144/246708144.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246708144/246708144.jpg@s_0,w_480",
+    "uri": "baidu:singer:刘若英 ",
+    "name": "刘若英 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/121900710/121900710.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/121900710/121900710.jpg@s_0,w_480",
+    "uri": "baidu:singer:刘珂矣 ",
+    "name": "刘珂矣 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/86426181/86426181.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/86426181/86426181.jpg@s_0,w_480",
+    "uri": "baidu:singer:冷漠 ",
+    "name": "冷漠 "
+  },
+  {
+    "head_image_small": "http://musicdata.baidu.com/data2/pic/246710232/246710232.jpg@s_0,w_120",
+    "head_image_big": "http://musicdata.baidu.com/data2/pic/246710232/246710232.jpg@s_0,w_480",
+    "uri": "baidu:singer:周华健 ",
+    "name": "周华健 "
+  },
+  {
+  "head_image_small": "http://musicdata.baidu.com/data2/pic/c866b4e2c57ea4b11b85a2a4f75d474d/533504710/533504710.jpg@s_0,w_120",
+  "head_image_big": "http://musicdata.baidu.com/data2/pic/c866b4e2c57ea4b11b85a2a4f75d474d/533504710/533504710.jpg@s_0,w_480",
+  "uri": "baidu:singer:五月天 ",
+  "name": "五月天 "
+  },
+  {
+  "head_image_small": "http://musicdata.baidu.com/data2/pic/246668381/246668381.jpg@s_0,w_120",
+  "head_image_big": "http://musicdata.baidu.com/data2/pic/246668381/246668381.jpg@s_0,w_480",
+  "uri": "baidu:singer:群星 ",
+  "name": "群星 "
+  },
+  {
+  "head_image_small": "http://musicdata.baidu.com/data2/pic/f4031d004cf42e272a00f8e11c5d78ec/261060350/261060350.jpg@s_0,w_120",
+  "head_image_big": "http://musicdata.baidu.com/data2/pic/f4031d004cf42e272a00f8e11c5d78ec/261060350/261060350.jpg@s_0,w_480",
+  "uri": "baidu:singer:贝多芬 ",
+  "name": "贝多芬 "
+  },
+  {
+  "head_image_small": "http://musicdata.baidu.com/data2/pic/246936805/246936805.jpg@s_0,w_120",
+  "head_image_big": "http://musicdata.baidu.com/data2/pic/246936805/246936805.jpg@s_0,w_480",
+  "uri": "baidu:singer:Adele ",
+  "name": "Adele "
+  },
+  {
+  "head_image_small": "http://musicdata.baidu.com/data2/pic/19bda38b70ba4c300fd9583b1cfab78a/258953748/258953748.jpg@s_0,w_120",
+  "head_image_big": "http://musicdata.baidu.com/data2/pic/19bda38b70ba4c300fd9583b1cfab78a/258953748/258953748.jpg@s_0,w_480",
+  "uri": "baidu:singer:马頔 ",
+  "name": "马頔 "
+  }
+  ]
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_my_channel_background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/settings_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/main_search_color"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/myChannelHeaderMarginbothside"
+        lt:leftButtonImage="@drawable/ic_back_selector"
+        lt:titleColor="@color/text_color_black"
+        lt:titleSize="@dimen/actionbar_title_size"
+        lt:titleText="@string/setting">
+    </com.mantic.control.widget.TitleBar>
+    <View
+        android:id="@+id/view_under_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/under_titlebar_colr" />
+    <LinearLayout
+        android:id="@+id/ll_permission"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/recylerview_item_bg"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv_ic_permission_title"
+            style="@style/Mantic.ListItem.TextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+            android:layout_weight="3"
+            android:text="@string/permission_setting" />
+
+        <ImageView
+            android:id="@+id/iv_permission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="@dimen/myChannelHeaderMarginbothside"
+            android:src="@drawable/goto_enter" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_soft"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+
+            android:background="@drawable/recylerview_item_bg"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_ic_soft_title"
+                style="@style/Mantic.ListItem.TextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+                android:layout_weight="3"
+                android:text="@string/soft_update" />
+
+            <TextView
+                android:id="@+id/tv_soft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/myChannelHeaderMarginbothside"
+                android:drawableEnd="@drawable/goto_enter" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+            android:background="@color/mainTabBottomLineColor" />
+
+        <LinearLayout
+            android:id="@+id/ll_firmware"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:background="@drawable/recylerview_item_bg"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_ic_firmware_title"
+                style="@style/Mantic.ListItem.TextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+                android:layout_weight="3"
+                android:text="@string/firmware_update" />
+
+            <TextView
+                android:id="@+id/tv_firmware"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/myChannelHeaderMarginbothside"
+                android:drawableEnd="@drawable/goto_enter" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_divider_height"
+            android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+            android:background="@color/list_divider" />
+
+    </LinearLayout>
+</LinearLayout>

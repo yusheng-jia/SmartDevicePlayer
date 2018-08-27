@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/product_more_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/main_search_color"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/myChannelHeaderMarginbothside"
+        lt:leftButtonImage="@drawable/ic_back_selector"
+        lt:titleColor="@color/text_color_black"
+        lt:titleSize="@dimen/actionbar_title_size"
+        lt:titleText="作品编辑"
+        lt:rightButtonText="编辑"
+        lt:rightButtonTextSize="17sp"
+        lt:rightButtonTextColor="@color/text_color_black">
+    </com.mantic.control.widget.TitleBar>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/product_more_recyclerview"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:overScrollMode="never"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_classification_title_item"
+    android:layout_width="match_parent"
+    android:layout_height="53.3dp"
+    android:background="#f1f1f1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_classification_title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="健康"
+        android:textColor="#313131"
+        android:textSize="18sp" />
+
+</LinearLayout>

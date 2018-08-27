@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/channel_details_item_view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/audioPlayerBottomSheetPeekHeight"
+    android:background="@drawable/recylerview_item_bg"
+    android:paddingLeft="@dimen/fragmentChannelDetailCoverMarginLeft">
+
+    <ImageView
+        android:id="@+id/iv_my_like_item_icon"
+        android:layout_width="@dimen/musicServiceSubitemListitemIconWidth"
+        android:layout_height="@dimen/musicServiceSubitemListitemIconHeight"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/iv_my_like_item_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:paddingBottom="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:paddingLeft="@dimen/my_like_operator_right"
+        android:paddingRight="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:paddingTop="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:src="@drawable/btn_audio_player_playlist_item_del" />
+
+
+    <ImageView
+        android:id="@+id/iv_my_like_item_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"
+        android:paddingBottom="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:paddingLeft="@dimen/my_like_operator_right"
+        android:paddingRight="@dimen/my_like_operator_right"
+        android:paddingTop="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:src="@drawable/btn_audio_player_playlist_item_setting"
+        android:textColor="@color/channelDetailsItemIndexTextColor"
+        android:textSize="@dimen/channelDetailsItemIndexTextSize"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/iv_my_like_item_delete" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_my_like_details_item_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/iv_my_like_item_setting"
+        android:layout_toRightOf="@id/iv_my_like_item_icon">
+
+        <TextView
+            android:id="@+id/tv_my_like_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:lineSpacingExtra="3dp"
+            android:maxLines="1"
+            android:textColor="@color/channelDetailsItemNameTextColor"
+            android:textSize="@dimen/channelDetailsItemNameTextSize" />
+
+        <LinearLayout
+            android:id="@+id/ll_my_like_item_album_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_my_like_item_name"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_album_sync_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/channel_detail_item_tv_album_sync_time_color"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_album_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时长08:30"
+                android:textColor="@color/channel_detail_item_tv_album_sync_time_color"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

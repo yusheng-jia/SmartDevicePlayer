@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="11.5dp"
+    android:layout_marginBottom="11.5dp"
+    android:id="@+id/ll_entertainment_netizen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_entertainment_netizen"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/audio_player_album_cover_default" />
+
+    <TextView
+        android:id="@+id/tv_netizen_describe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.3dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:text="暖心歌后郁可唯，听阳光晒进..."
+        android:textColor="@color/text_color_black"
+        android:textSize="14sp" />
+</LinearLayout>

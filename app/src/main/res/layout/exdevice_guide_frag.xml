@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:id="@+id/network_pair_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@+id/network_pair_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/network_pair_image" />
+
+        <TextView
+            android:id="@+id/network_pair_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/exdevice_tip_new"
+            style="@style/TextLightStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_dot_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pair_network_next"
+        android:layout_marginBottom="@dimen/dot_image_margin_bottom"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/select_dot_background"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/dot_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/unselect_dot"/>
+        <TextView
+            android:id="@+id/dot_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white_70"
+            android:text="@string/sound_start_pair_network"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pair_network_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/btn_primary_bg_selector"
+        android:gravity="center|bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="@string/pair_network_next"
+            style="@style/BottomRedButtonStyle"/>
+    </LinearLayout>
+
+</RelativeLayout>

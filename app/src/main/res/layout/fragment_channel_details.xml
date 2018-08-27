@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/audioPlayerBottomSheetPeekHeight"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/fragment_channel_details_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView"
+        android:background="@color/main_search_color">
+
+
+        <LinearLayout
+            android:id="@+id/ll_channel_details_operator"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_channel_details_back"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_vertical">
+
+                <!--<ImageView
+                    android:id="@+id/iv_channel_details_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:paddingLeft="3dp"
+                    android:src="@drawable/ic_mylike_back_selector" />-->
+
+                <TextView
+                    android:id="@+id/tv_channel_detail_back"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ic_mylike_back_selector"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:text="@string/channel_detail_back"
+                    android:textColor="@color/titlebar_text_background" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/fragment_channel_details_close_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingLeft="@dimen/toolbar_button_marginbothside"
+                android:paddingRight="@dimen/toolbar_button_marginbothside"
+                android:text="@string/channel_detail_close"
+                android:textColor="@color/titlebar_text_background" />
+
+            <TextView
+                android:id="@+id/tv_channel_detail_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@id/fragment_channel_details_close_button"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/toolbar_title_textsize"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <ImageButton
+            android:id="@+id/fragment_channel_details_more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/toolbar_button_marginbothside"
+            android:layout_marginRight="@dimen/toolbar_button_marginbothside"
+            android:background="@android:color/transparent"
+            android:src="@drawable/audio_player_more_btn" />
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/view_under_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/fragment_channel_details_toolbar"
+        android:background="@color/under_titlebar_colr" />
+
+    <RelativeLayout
+
+        android:id="@+id/channel_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view_under_titlebar"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcv_channel_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+        <TextView
+            android:id="@+id/fragment_channel_detail_channel_sum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rcv_channel_detail"
+            android:layout_marginLeft="@dimen/fragmentChannelDetailCoverHeight"
+            android:layout_marginRight="@dimen/fragmentChannelDetailCoverMarginLeft"
+            android:background="@android:color/transparent" />
+
+        <LinearLayout
+            android:id="@+id/ll_request_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:paddingTop="200dp"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/iv_request_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_request_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/net_is_loading"
+                android:textColor="@color/text_color_grey"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/channel_scroll_view"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="11dp"
+        android:background="@android:color/transparent"
+        android:text="@string/fragment_channel_details_title"
+        android:textColor="@color/text_color_white"
+        android:textSize="@dimen/toolbar_title_textsize"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

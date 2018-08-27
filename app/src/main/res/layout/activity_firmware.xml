@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/fragment_my_channel_background"
+    android:orientation="vertical">
+
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/activity_firmware_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/main_search_color"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/myChannelHeaderMarginbothside"
+        lt:leftButtonImage="@drawable/ic_back_selector"
+        lt:titleColor="@color/text_color_black"
+        lt:titleSize="@dimen/actionbar_title_size"
+        lt:titleText="@string/firmware_update">
+    </com.mantic.control.widget.TitleBar>
+    <View
+        android:id="@+id/view_under_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/activity_firmware_titlebar"
+        android:background="@color/under_titlebar_colr" />
+
+    <LinearLayout
+        android:id="@+id/latest_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@+id/image_latest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/firm_is_latest" />
+
+        <TextView
+            android:id="@+id/update_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="13sp"
+            android:textColor="@color/text_color_grey"
+            android:text="@string/ota_update_success_show" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_firmware"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_below="@id/activity_firmware_titlebar"
+        android:dividerHeight="15dp"
+        android:divider="@color/bg_grey"
+/>
+</RelativeLayout>

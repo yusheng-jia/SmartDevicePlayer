@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/audioPlayerBottomSheetPeekHeight"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:id="@+id/fragment_skilldetail_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/main_search_color">
+        <LinearLayout
+            android:id="@+id/fragment_skill_detail_back"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:id="@+id/iv_channel_details_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:paddingLeft="3dp"
+                android:src="@drawable/ic_mylike_back_selector" />
+
+            <TextView
+                android:id="@+id/tv_channel_detail_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:clickable="false"
+                android:text="@string/channel_detail_back"
+                android:textColor="@color/titlebar_text_background" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--显示网页区域-->
+    <View
+        android:id="@+id/view_under_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/fragment_skilldetail_titlebar"
+        android:background="@color/under_titlebar_colr" />
+    <WebView
+        android:id="@+id/webview_skilldetail"
+        android:layout_below="@+id/view_under_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:overScrollMode="never"/>
+
+</RelativeLayout>

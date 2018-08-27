@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/bt_device_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bt_device_img_background"
+        android:src="@drawable/bt_device_item_yls" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/bt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="亚兰是play1：3311"
+        android:textColor="@color/white_50" />
+
+    <LinearLayout
+        android:id="@+id/bt_item_connect_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/bt_connect_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/bt_connecting" />
+
+        <TextView
+            android:id="@+id/connect_text"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="正在连接..."
+            android:textColor="@color/white_70" />
+    </LinearLayout>
+</LinearLayout>

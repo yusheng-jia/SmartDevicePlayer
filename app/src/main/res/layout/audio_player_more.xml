@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5dfdfdf">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="44dp"
+         android:gravity="center_vertical"
+         >
+         <TextView
+             android:id="@+id/audio_player_more_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="@dimen/audioPlayerPlaylistLoopMarginBothsides"
+             android:layout_marginRight="12dp"
+             android:textColor="@color/tip_red"
+             android:textSize="18sp" />
+     </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/audioPlayerPlaylistItemSingerNameTextColor"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/audio_player_more_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/audioPlayerPlaylistLoopMarginBothsides"
+            android:textColor="@color/audioPlayerPlaylistLoopDescTextColor"
+            android:textSize="@dimen/audioPlayerPlaylistLoopDescTextSize" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/audioPlayerPlaylistItemSingerNameTextColor"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/audio_player_more_add_channel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/audioPlayerPlaylistLoopMarginBothsides"
+            android:textColor="@color/audioPlayerPlaylistLoopDescTextColor"
+            android:textSize="@dimen/audioPlayerPlaylistLoopDescTextSize"
+            android:text="@string/add_to_mychannel"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/audioPlayerPlaylistItemSingerNameTextColor"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/audio_player_more_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/audioPlayerPlaylistLoopMarginBothsides"
+            android:textColor="@color/audioPlayerPlaylistLoopDescTextColor"
+            android:textSize="@dimen/audioPlayerPlaylistLoopDescTextSize"
+            android:text="@string/search_arrt"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/audioPlayerPlaylistItemSingerNameTextColor"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="vertical"
+        android:id="@+id/audio_player_more_cencel_content"
+        >
+        <TextView
+            android:id="@+id/audio_player_more_cencel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/cancel"
+            android:textColor="@color/audioPlayerPlaylistLoopDescTextColor"
+            android:textSize="@dimen/audioPlayerPlaylistLoopDescTextSize" />
+
+    </RelativeLayout>
+
+</LinearLayout>

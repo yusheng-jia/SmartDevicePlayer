@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_new_song"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/recylerview_item_bg">
+
+    <ImageView
+        android:id="@+id/iv_new_song_icon"
+        android:layout_width="@dimen/musicServiceSubitemListitemIconWidth"
+        android:layout_height="@dimen/musicServiceSubitemListitemIconHeight"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <ImageButton
+        android:id="@+id/btn_new_song_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:paddingBottom="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:paddingLeft="10dp"
+        android:paddingTop="@dimen/fragmentChannelDetailCoverMarginLeft"
+        android:paddingRight="10dp"
+        android:src="@drawable/entertainment_new_song_more"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <RelativeLayout
+        android:id="@+id/rl_channel_details_item_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/btn_new_song_more"
+        android:layout_toRightOf="@id/iv_new_song_icon">
+
+        <TextView
+            android:id="@+id/tv_new_song_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:lineSpacingExtra="3dp"
+            android:maxLines="1"
+            android:text="有多少爱可以重来"
+            android:textColor="#313131"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_new_song_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tv_new_song_name"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="迪克牛仔"
+            android:textColor="#aaaaaa"
+            android:textSize="11sp" />
+    </RelativeLayout>
+</RelativeLayout>

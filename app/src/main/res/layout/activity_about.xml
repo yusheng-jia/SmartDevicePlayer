@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_start_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+   >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionbar_height"
+        android:gravity="center_vertical"
+        android:background="@color/transparent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="left"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="left|center"
+            android:src="@drawable/ic_back_white_selector" />
+
+    </FrameLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_mantic_top" />
+
+    <TextView
+        android:id="@+id/tv_about_version"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="35dp"
+        android:gravity="center"
+        android:text="CoomaanPlay 1.0.8"
+        android:textColor="@color/white_50"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="17dp"
+        android:gravity="center"
+        android:text="@string/about_tip"
+        android:textColor="@color/white_50"
+        android:textSize="12sp" />
+
+
+</FrameLayout>

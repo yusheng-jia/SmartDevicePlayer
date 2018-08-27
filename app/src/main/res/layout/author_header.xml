@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="38dp"
+    android:orientation="horizontal">
+
+    <com.mantic.control.widget.CircleImageView
+        android:id="@+id/iv_author_from"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dp"
+        android:src="@drawable/wyyyy_music_service_icon"
+        app:border_color="@color/transparent"
+        app:border_width="1dp" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_search_more"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="14dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_search_more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:gravity="center_vertical"
+            android:text="更多"
+            android:textColor="@color/text_color_grey"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_search_result_more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/search_result_more" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_author_from_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@id/ll_search_more"
+        android:layout_toRightOf="@id/iv_author_from"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="网易云音乐"
+        android:textColor="@color/text_color_grey"
+        android:textSize="13sp" />
+
+</RelativeLayout>

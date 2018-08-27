@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_shortAnimTime">@android:integer/config_shortAnimTime</integer>
+    <!-- circularprogressview start -->
+    <integer name="cpv_default_progress">0</integer>
+    <integer name="cpv_default_max_progress">100</integer>
+    <bool name="cpv_default_is_indeterminate">false</bool>
+    <bool name="cpv_default_anim_autostart">false</bool>
+    <integer name="cpv_default_anim_duration">4000</integer>
+    <integer name="cpv_default_anim_swoop_duration">5000</integer>
+    <integer name="cpv_default_anim_sync_duration">500</integer>
+    <integer name="cpv_default_anim_steps">3</integer>
+    <integer name="cpv_default_start_angle">-90</integer>
+    <!-- circularprogressview end -->
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_music_rank_item"
+    android:layout_width="75dp"
+    android:layout_height="60dp"
+    android:background="@drawable/child_education_item_background"
+    android:layout_marginLeft="2.65dp"
+    android:layout_marginRight="2.65dp">
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:id="@+id/tv_music_rank_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="健康"
+        android:textColor="@color/rank_normal"
+        android:textSize="13sp" />
+
+</RelativeLayout>

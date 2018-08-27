@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_my_channel_background">
+
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/clock_save_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/main_search_color"
+        android:paddingStart="8dp"
+        android:paddingEnd="@dimen/myChannelHeaderMarginbothside"
+        lt:leftButtonImage="@drawable/ic_back_selector"
+        lt:titleColor="@color/text_color_black"
+        lt:titleSize="@dimen/actionbar_title_size"
+        lt:titleText="@string/clock_add_setting"
+        lt:rightButtonText="@string/save_clock"
+        lt:rightButtonTextSize="16dp">
+    </com.mantic.control.widget.TitleBar>
+    <View
+        android:id="@+id/view_tab_layout_separator"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#cdcdcd" />
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_search_color">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.aigestudio.wheelpicker.WheelPicker
+                android:id="@+id/hour_wheelpicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:wheel_cyclic="true"
+                app:wheel_selected_item_text_color="@color/mainTabIndicatorColor" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/mainTabIndicatorColor"/>
+            <com.aigestudio.wheelpicker.WheelPicker
+                android:layout_marginLeft="30dp"
+                android:id="@+id/minute_wheelpicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:wheel_cyclic="true"
+                app:wheel_selected_item_text_color="@color/mainTabIndicatorColor" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/mainTabIndicatorColor"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/main_search_color"
+      android:paddingTop="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:textColor="#e6000000"
+                android:text="重复"/>
+            <Switch
+                android:id="@+id/repeat_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:track="@null"
+                android:thumb="@null"
+                android:background="@drawable/switch_drawable_large"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/date_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp">
+            <TextView
+                android:id="@+id/one"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:textSize="18sp"
+                android:text="一"
+                android:gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/date_background"/>
+
+            <TextView
+                android:id="@+id/two"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:textSize="18sp"
+                android:text="二"
+                android:gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/date_background"/>
+
+            <TextView
+                android:id="@+id/three"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:textSize="18sp"
+                android:text="三"
+                android:gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/date_background"/>
+
+            <TextView
+                android:id="@+id/four"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:textSize="18sp"
+                android:text="四"
+                android:gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/date_background"/>
+
+            <TextView
+                android:id="@+id/five"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:textSize="18sp"
+                android:text="五"
+                android:gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/date_background"/>
+
+            <TextView
+                android:id="@+id/six"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:textSize="18sp"
+                android:text="六"
+                android:gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/date_background"/>
+            <TextView
+                android:id="@+id/seven"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:textSize="18sp"
+                android:text="日"
+                android:gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/date_background"/>
+
+        </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_search_color">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#50403939"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/main_search_color"
+        android:paddingTop="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="个性化铃声"
+            android:textSize="18sp"
+            android:textColor="#e6000000"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/personal_bell"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:paddingBottom="5dp"/>
+            <Switch
+                android:id="@+id/open_bell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:track="@null"
+                android:thumb="@null"
+                android:background="@drawable/switch_drawable_large"
+                android:layout_marginRight="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_channel_management"
+        android:background="@color/main_search_color"
+        android:paddingLeft="17dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:layout_width="47.3dp"
+            android:layout_height="47.3dp"
+            android:id="@+id/channel_icon"
+            android:src="@drawable/like_music"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/channel_del_btn"
+            android:src="@drawable/goto_enter"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="35dp"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/channel_title"
+            android:layout_toRightOf="@id/channel_icon"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="15sp"
+            android:textColor="@color/myChannelTitleTextColor"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp" />
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="删除闹钟"
+        android:textSize="17sp"
+        android:textColor="@color/mainTabIndicatorColor"
+        android:layout_marginTop="18dp"
+       android:paddingLeft="15dp"
+        android:background="@color/main_search_color"/>
+
+
+
+
+</LinearLayout>

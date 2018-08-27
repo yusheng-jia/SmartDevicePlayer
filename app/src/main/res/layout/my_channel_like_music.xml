@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/myChannelItemHeight"
+    android:clickable="true"
+    android:id="@+id/rl_my_channel_like_music"
+    android:background="@drawable/recylerview_item_bg">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/like_music_icon"
+        android:src="@drawable/like_music"
+        android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+        android:layout_centerVertical="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/like_music_icon"
+        android:layout_marginLeft="@dimen/myChannelTitleMarginLeft">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_like_music_title"
+            android:textSize="@dimen/myChannelTitleTextSize"
+            android:text="@string/my_like_music"
+            android:textColor="@color/myChannelTitleTextColor"
+            android:layout_marginBottom="@dimen/myChannelTitleMarginBottom"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_like_music_count"
+            android:textSize="@dimen/myChannelNotesTextSize"
+            android:textColor="@color/myChannelNotesTextColor"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/goto_like_music_btn"
+        android:src="@drawable/goto_enter"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/myChannelHeaderMarginbothside"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

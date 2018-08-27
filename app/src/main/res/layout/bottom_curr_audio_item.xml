@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:layout_width="@dimen/audioBottomBarAlbumCoverWidthHeight"
+        android:layout_height="@dimen/audioBottomBarAlbumCoverWidthHeight"
+        android:id="@+id/audio_bottom_bar_album_cover"
+        android:src="@drawable/audio_bottom_bar_album_cover"
+        android:background="@drawable/shape_gray_square_bg"
+        android:padding="0.5px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+        android:layout_centerVertical="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/audio_bottom_bar_album_cover"
+        android:layout_marginLeft="@dimen/myChannelTitleMarginLeft">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/audio_bottom_bar_channel_name"
+            android:textSize="@dimen/myChannelTitleTextSize"
+            android:textColor="@color/myChannelTitleTextColor"
+            android:layout_marginBottom="@dimen/audioBottomBarChannelNameMarginsinger"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/audio_bottom_bar_channel_singer"
+            android:textSize="@dimen/myChannelNotesTextSize"
+            android:textColor="@color/myChannelNotesTextColor"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

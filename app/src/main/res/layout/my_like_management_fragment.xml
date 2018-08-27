@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true">
+
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/tb_my_like_management"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/main_search_color"
+        android:paddingLeft="@dimen/title_bar_padding_left"
+        lt:leftButtonText="@string/toolsbar_close_action_text"
+        lt:leftButtonTextColor="@color/text_color_black"
+        lt:leftButtonTextSize="@dimen/channel_add_titlebar_lefttext_size"
+        lt:titleColor="@color/text_color_black"
+        lt:titleSize="@dimen/actionbar_title_size"
+        lt:titleText="@string/batch_management">
+
+    </com.mantic.control.widget.TitleBar>
+
+
+    <View
+        android:id="@+id/view_under_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/tb_my_like_management"
+        android:background="@color/under_titlebar_colr" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcv_my_like_manager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view_under_titlebar"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+</RelativeLayout>

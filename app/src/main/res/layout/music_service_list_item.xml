@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/recylerview_item_bg"
+    android:layout_width="match_parent"
+    android:id="@+id/rl_music_service_list_item"
+    android:layout_height="@dimen/music_service_list_item_height">
+
+    <ImageView
+        android:id="@+id/iv_music_service_item_icon"
+        android:layout_marginTop="@dimen/music_service_list_item_icon_bottom_margin"
+        android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+        android:layout_width="@dimen/music_service_list_item_icon"
+        android:layout_height="@dimen/music_service_list_item_icon" />
+
+    <TextView
+        android:id="@+id/tv_music_service_item_operator"
+        android:layout_below="@id/iv_music_service_item_icon"
+        android:layout_width="@dimen/music_service_list_item_icon"
+        android:gravity="center"
+        android:clickable="true"
+        android:textSize="@dimen/music_service_list_item_text_operator_size"
+        android:textColor="@color/black"
+        android:background="@drawable/textview_border"
+        android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+        android:layout_marginTop="@dimen/music_service_list_item_text_operator_margin_top"
+        android:layout_height="@dimen/music_service_list_item_text_operator_height" />
+
+    <RelativeLayout
+        android:layout_alignTop="@id/iv_music_service_item_icon"
+        android:layout_marginBottom="@dimen/music_service_list_item_icon_bottom_margin"
+        android:layout_marginRight="@dimen/music_service_list_item_desc_margin_right"
+        android:layout_marginLeft="@dimen/music_service_list_item_icon_right_margin"
+        android:layout_toRightOf="@id/iv_music_service_item_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="@dimen/myChannelTitleTextSize"
+            android:textColor="@color/myChannelTitleTextColor"
+            android:id="@+id/tv_music_service_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:padding="@dimen/music_service_list_item_desc_padding_left"
+            android:layout_marginTop="@dimen/music_service_list_item_desc_margin_top"
+            android:maxLines="4"
+            android:lineSpacingExtra="3dp"
+            android:ellipsize="end"
+            android:textSize="@dimen/music_service_list_item_text_operator_size"
+            android:textColor="@color/myChannelNotesTextColor"
+            android:id="@+id/tv_music_service_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:layout_width="@dimen/music_service_list_item_back_height"
+        android:layout_height="@dimen/music_service_list_item_back_height"
+        android:id="@+id/btn_my_music_service_detail"
+        android:src="@drawable/goto_enter"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/myChannelHeaderMarginbothside"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

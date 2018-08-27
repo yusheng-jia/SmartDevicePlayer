@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/audioPlayerBottomSheetPeekHeight"
+    android:background="@android:color/white"
+    android:clickable="true">
+
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/tb_classification_song"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/main_search_color"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/myChannelHeaderMarginbothside"
+        lt:leftButtonImage="@drawable/ic_back_selector"
+        lt:titleColor="@color/text_color_black"
+        lt:titleSize="@dimen/actionbar_title_size"
+        lt:titleText="分类歌单">
+
+    </com.mantic.control.widget.TitleBar>
+
+    <View
+        android:id="@+id/view_under_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/tb_classification_song"
+        android:background="@color/under_titlebar_colr" />
+
+
+    <FrameLayout
+        android:layout_below="@id/view_under_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_classification_song"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="2.5dp"
+
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+        <com.mantic.control.decoration.classification.StickyHeadContainer
+            android:layout_width="match_parent"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:id="@+id/shc_container"
+            android:layout_height="wrap_content">
+            <include layout="@layout/classification_title_item"/>
+        </com.mantic.control.decoration.classification.StickyHeadContainer>
+    </FrameLayout>
+</RelativeLayout>

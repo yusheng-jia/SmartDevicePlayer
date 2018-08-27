@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_entertainment_voiced_more_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="5.5dp"
+    android:layout_marginLeft="2.65dp"
+    android:layout_marginRight="2.65dp"
+    android:layout_marginTop="5.5dp">
+
+    <LinearLayout
+        android:layout_marginLeft="36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_entertainment_voiced_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/entertainment_voiced_emotion" />
+
+        <TextView
+            android:id="@+id/tv_entertainment_voiced_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:text="健康"
+            android:textColor="#797979"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_underline"
+        android:layout_marginTop="4dp"
+        android:background="#ededed"
+        android:layout_width="wrap_content"
+        android:layout_height="1.67dp">
+
+    </View>
+
+</LinearLayout>

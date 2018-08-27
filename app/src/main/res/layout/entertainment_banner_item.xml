@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="114dp" >
+    <ImageView
+        android:id="@+id/iv_entertainment_banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_image_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="7dp"
+        android:maxLength="12"
+        android:textColor="@color/white"
+        android:layout_marginBottom="12dp"
+        android:textSize="14sp" />
+</FrameLayout>

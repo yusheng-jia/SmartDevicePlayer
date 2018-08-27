@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_entertainment_child_education"
+    android:layout_marginBottom="11.5dp"
+    android:layout_marginLeft="3.65dp"
+    android:layout_marginRight="3.65dp"
+    android:layout_marginTop="11.5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_entertainment_child_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/entertainment_child_education_popular_nursery_rhymes" />
+
+    <TextView
+        android:id="@+id/tv_entertainment_child_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10.3dp"
+        android:text="热门儿歌"
+        android:textColor="#313131"
+        android:textSize="13sp" />
+</LinearLayout>

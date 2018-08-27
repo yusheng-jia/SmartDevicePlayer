@@ -1,0 +1,366 @@
+[
+    {
+        "interestId": "0",
+        "channelList": [{
+                "channelName": "怀旧老歌也如此Fashion",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group16/M06/C4/09/wKgDalZkfaKSlvlDAAEOZO1DBQU003_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group16/M06/C4/09/wKgDalZkfaKSlvlDAAEOZO1DBQU003_mobile_large.jpg",
+                "channelIntro": "3D效果流行热曲",
+                "totalCount": 301,
+                "pre_data_type": 3,
+                "album_id": "2988465",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "适合读书的背景音乐",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group29/M02/B5/95/wKgJXVkifMmB42tXAADBv3cIM9U669_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group29/M02/B5/95/wKgJXVkifMmB42tXAADBv3cIM9U669_mobile_large.jpg",
+                "channelIntro": "还在苦苦寻找适合读书、读诗的背景音乐吗？听听看，这些音乐喜欢吗？ 传播中医文化、艾灸疗法、一切正能量...... 愿为人类社会做一些力所能及的事。 欢迎关注wei号（pingguo9002） 美丽蜕变，敬请期待！ 欢迎常来，祝安好~",
+                "totalCount": 166,
+                "pre_data_type": 3,
+                "album_id": "7398305",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+             },
+             {
+                "channelName": "来自宫崎骏の美妙音乐",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group9/M02/6E/4C/wKgDZlc7NWLz-F5cAA4tSZVpbjA022_mobile_large.png",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group9/M02/6E/4C/wKgDZlc7NWLz-F5cAA4tSZVpbjA022_mobile_large.png",
+                "channelIntro": "宫崎骏童话电影均为著名音乐家久石让作曲",
+                "totalCount": 20,
+                "pre_data_type": 3,
+                "album_id": "4321677",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+              }
+        ]
+
+
+    },
+    {
+        "interestId": "1",
+        "channelList": [{
+                "channelName": "新闻早餐",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group18/M01/19/DE/wKgJKleDXj2QJYOuAAFbNixU8BI237_mobile_large.png",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group18/M01/19/DE/wKgJKleDXj2QJYOuAAFbNixU8BI237_mobile_large.png",
+                "channelIntro": "一日之计在于晨，新闻早餐不能少。微信公众号：xwzc021",
+                "totalCount": 411,
+                "pre_data_type": 3,
+                "album_id": "4519297",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "老司机聊个球",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group18/M07/A9/47/wKgJJVgPNVzxmIahAAHKhBVcBNU013_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group18/M07/A9/47/wKgJJVgPNVzxmIahAAHKhBVcBNU013_mobile_large.jpg",
+                "channelIntro": "老司机聊个球》是乐播足球出品的国内首档足球脱口秀节目，由国内知名足球评论人、节目主持人、足球评论员——董路老师带领大家一起畅游在足球文化的海洋之中。这里有最幽默的足球趣闻，这里有最专业的足球评论。《老司机聊个球》，是所有足球爱好者不可错过的一次完美邂逅。",
+                "totalCount": 173,
+                "pre_data_type": 3,
+                "album_id": "5640891",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "每天听一点，饭桌有得聊",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group27/M03/B2/54/wKgJR1kYK0DA9xyhAAAKiX6sp30157_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group27/M03/B2/54/wKgJR1kYK0DA9xyhAAAKiX6sp30157_mobile_large.jpg",
+                "channelIntro": "每天听一次，饭桌有话聊",
+                "totalCount": 173,
+                "pre_data_type": 3,
+                "album_id": "8114234",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+
+    },
+    {
+        "interestId": "2",
+         "channelList": [{
+                "channelName": "糗事播报",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group16/M00/DB/10/wKgDalaGav_D4v2kAAAg9QfYc-s144_mobile_large.png",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group16/M00/DB/10/wKgDalaGav_D4v2kAAAg9QfYc-s144_mobile_large.png",
+                "channelIntro": "",
+                "totalCount": 465,
+                "pre_data_type": 3,
+                "album_id": "3493173",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "段子来了",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group5/M03/A6/D8/wKgDtlR1MD_T1DQHAANqZDyk48s720_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group5/M03/A6/D8/wKgDtlR1MD_T1DQHAANqZDyk48s720_mobile_large.jpg",
+                "channelIntro": "主播采采，最热最IN的段子吐槽，欢迎订阅专辑~更新有提示哦",
+                "totalCount": 173,
+                "pre_data_type": 3,
+                "album_id": "203355",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "波波有理",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group5/M04/C7/42/wKgDtVSClD7As5OiAAGUrdapBwI140_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group5/M04/C7/42/wKgDtVSClD7As5OiAAGUrdapBwI140_mobile_large.jpg",
+                "channelIntro": "全国首档女子爆笑娱乐脱口秀。关注微信平台“BOBO脱口秀”，无限精彩抢先听！",
+                "totalCount": 975,
+                "pre_data_type": 3,
+                "album_id": "269483",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+    },
+    {
+        "interestId": "3",
+        "channelList": [{
+                "channelName": "吴晓波频道",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group5/M06/D5/8C/wKgDtlSJEZvxIRaKAArO7X1ML0w347_mobile_small.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group5/M06/D5/8C/wKgDtlSJEZvxIRaKAArO7X1ML0w347_mobile_small.jpg",
+                "channelIntro": "吴晓波讲述有趣的商业世界",
+                "totalCount": 147,
+                "pre_data_type": 3,
+                "album_id": "269179",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "猩猩时间",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group25/M0B/B1/D4/wKgJNliv39Kjw3SwAADGLQ5QLHY737_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group25/M0B/B1/D4/wKgJNliv39Kjw3SwAADGLQ5QLHY737_mobile_large.jpg",
+                "channelIntro": "猩猩妹每周一至周五晚上十点和你说条小小的知识新闻，读书、赚钱、美体和超强大脑。每天知道一丢丢，做个有趣的人。",
+                "totalCount": 85,
+                "pre_data_type": 3,
+                "album_id": "6855034",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "檀谈",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group19/M04/29/0D/wKgJK1eIiXeAkxLeAAFvqy5Inr0936_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group19/M04/29/0D/wKgJK1eIiXeAkxLeAAFvqy5Inr0936_mobile_large.jpg",
+                "channelIntro": "名财经评论家叶檀和你一起聊聊，为什么女人喜欢买小一号的衣服？为什么妈妈喜欢问你有没有穿秋裤？为什么婚礼是婚姻的坟墓？为什么婆媳是天敌？一起檀谈生活中的经济学。",
+                "totalCount": 48,
+                "pre_data_type": 3,
+                "album_id": "4743804",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+    },
+    {
+        "interestId": "4",
+        "channelList": [{
+                "channelName": "火火兔儿歌",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group16/M04/28/71/wKgDbFbvQjCBOtIAAADufMXBLbg945_mobile_large.gif",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group16/M04/28/71/wKgDbFbvQjCBOtIAAADufMXBLbg945_mobile_large.gif",
+                "channelIntro": "每一个人的成长都离不开儿歌的陪伴，动听悦耳的儿歌不仅会驱散生活中小烦恼，而且会带来意想不到的快乐。火火兔原创儿歌系列，专业音乐人的精心打造，为小朋友提供既经典又充满现代感的原创儿歌。 火火兔原创儿歌，内容丰富，不拘一格，既贴近生活，又充满时代感；形式多样，融入了多种流行音乐元素，既易于传唱，又不失趣味和教育意义。相信火火兔原创儿歌在带给小朋友美妙旋律的同时，也会让小朋友们健康快乐地成长。",
+                "totalCount": 55,
+                "pre_data_type": 3,
+                "album_id": "3913326",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "巧虎唐诗",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group15/M07/44/CE/wKgDaFcQRD6hsTUcAAGkggfZPjo212_mobile_large.png",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group15/M07/44/CE/wKgDaFcQRD6hsTUcAAGkggfZPjo212_mobile_large.png",
+                "channelIntro": "",
+                "totalCount": 23,
+                "pre_data_type": 3,
+                "album_id": "4083720",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "小猪佩奇",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group18/M0B/57/E1/wKgJKlf1yPCyQFnxAAO32dnrrkU818_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group18/M0B/57/E1/wKgJKlf1yPCyQFnxAAO32dnrrkU818_mobile_large.jpg",
+                "channelIntro": "",
+                "totalCount": 125,
+                "pre_data_type": 3,
+                "album_id": "5444801",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+    },
+    {
+        "interestId": "5",
+        "channelList": [{
+                "channelName": "郭德纲于谦-2017最新经典相声精粹（每天更新）",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group29/M02/8E/3A/wKgJWVkhJMCTXO-oAAB9hHR0kMc385_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group29/M02/8E/3A/wKgJWVkhJMCTXO-oAAB9hHR0kMc385_mobile_large.jpg",
+                "channelIntro": "相声是一种民间说唱曲艺。相声一词，古作象生，原指模拟别人的言行，后发展为象声。象声又称隔壁象声。相声起源于华北地区的民间说唱曲艺，在明朝即已盛行。经清朝时期的发展直至民国初年，相声逐渐从一个人摹拟口技发展成为单口笑话，名称也就随之转变为相声。一种类型的单口相声，后来逐步发展为多种类型：单口相声、对口相声、群口相声，综合为一体。本专辑为你收集整理一系列相声精粹，资源来自互联网分享， 如有侵权请及时联系，第一时间删除， 希望给大家带来快乐！欢迎大家转发、评论、点赞！分享快乐，享受生活，感觉乐呵了，记得关注订阅“有声读物精粹”奥。",
+                "totalCount": 296,
+                "pre_data_type": 3,
+                "album_id": "6304467",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "岳云鹏相声精选集",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group23/M00/E6/B0/wKgJNFjGcf2RSnKVAAIOZIqMV5I318_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group23/M00/E6/B0/wKgJNFjGcf2RSnKVAAIOZIqMV5I318_mobile_large.jpg",
+                "channelIntro": "岳云鹏，1985年4月15日出生于河南濮阳，华语相声演员。2004年投身相声界，拜郭德纲为师，主攻相声、太平歌词、竹板书。2005年首次登台演出。",
+                "totalCount": 55,
+                "pre_data_type": 3,
+                "album_id": "7105712",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "冯巩-小品精选",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group21/M01/B1/63/wKgJLVhNGNagtdoUAASSbXLo2FQ548_mobile_large.png",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group21/M01/B1/63/wKgJLVhNGNagtdoUAASSbXLo2FQ548_mobile_large.png",
+                "channelIntro": "冯巩-小品精选",
+                "totalCount": 40,
+                "pre_data_type": 3,
+                "album_id": "6130458",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+    },
+    {
+        "interestId": "6",
+        "channelList": [{
+                "channelName": "一个人听",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group5/M0A/2A/31/wKgDtlSsnAWz_FJVABfJVkPDs8c964_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group5/M0A/2A/31/wKgDtlSsnAWz_FJVABfJVkPDs8c964_mobile_large.jpg",
+                "channelIntro": "你有故事吗？你想要听故事吗？ 那就带着一点点城市的余温，忘记月光，忘记烟火，有些故事，只适合一个人听。 素未谋面，谢谢你，愿意听我。 每天晚上，我都会用一段声音陪你入睡。 【微博：蕊希Erin 微信公众号：一个人听（yigerenting179）】",
+                "totalCount": 236,
+                "pre_data_type": 3,
+                "album_id": "321787",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "成真恋爱学",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group12/M00/28/9D/wKgDXFbvcHTBjSNqAAJPdIgE-O4582_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group12/M00/28/9D/wKgDXFbvcHTBjSNqAAJPdIgE-O4582_mobile_large.jpg",
+                "channelIntro": "成真介绍：《迷上我》作者，两性吸引学专家，迷上我网站创始人。《成真恋爱学》专题系列，通过各个方面告诉你在吸引女人这个问题上的观念、方法和技巧，即使你不高、不帅也没钱，照样可以吸引你喜欢的女生。",
+                "totalCount": 148,
+                "pre_data_type": 3,
+                "album_id": "3263923",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "睡前晚安",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group16/M08/19/52/wKgDbFbdx-KBT2vHAAGXis-3RG8359_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group16/M08/19/52/wKgDbFbdx-KBT2vHAAGXis-3RG8359_mobile_large.jpg",
+                "channelIntro": "我看书，夜读给你听。这里是原声带网络电台睡前晚安。 微信公众号：睡前晚安书友会。 如果你已关注睡前晚安书友会，但还未加入“睡前晚安领读社群”，请点击公众号菜单栏“立即报名”。每晚九点，我看书读给你听，等你一起来参与!",
+                "totalCount": 908,
+                "pre_data_type": 3,
+                "album_id": "322026",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+    },
+    {
+        "interestId": "7",
+        "channelList": [{
+                "channelName": "三国",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group20/M0B/B6/D6/wKgJLFe-TyuCUGx4AAFJETNyhAw282_mobile_small.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group20/M0B/B6/D6/wKgJLFe-TyuCUGx4AAFJETNyhAw282_mobile_small.jpg",
+                "channelIntro": "实三国，不需要演义",
+                "totalCount": 259,
+                "pre_data_type": 3,
+                "album_id": "3703879",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "一说《春秋》",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group18/M05/43/9F/wKgJKleSLU7wACe5AAxBF5FPtFk438_mobile_small.png",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group18/M05/43/9F/wKgJKleSLU7wACe5AAxBF5FPtFk438_mobile_small.png",
+                "channelIntro": "少废话、不戏说，真正读懂春秋",
+                "totalCount": 311,
+                "pre_data_type": 3,
+                "album_id": "4164479",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "毛泽东传（罗斯·特里尔著）",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group19/M04/29/0D/wKgJK1eIiXeAkxLeAAFvqy5Inr0936_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group19/M04/29/0D/wKgJK1eIiXeAkxLeAAFvqy5Inr0936_mobile_large.jpg",
+                "channelIntro": "这是一部最翔实和最权威的关于毛泽东生平的传记，通过利用近年来在中国得到的大量最新的资料，全书得到了充实。 特里尔是一个传记天才……他对毛泽东形象的真实刻画持续不断地、令人着魔地贯穿于全书的始终。 ——《休斯顿纪事报》",
+                "totalCount": 95,
+                "pre_data_type": 3,
+                "album_id": "6140288",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+
+    },
+    {
+        "interestId": "8",
+        "channelList": [{
+                "channelName": "养生那点事儿",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "\http://fdfs.xmcdn.com/group27/M03/45/AE/wKgJR1j9tCiANVjEAAG47fuSvjo502_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group27/M03/45/AE/wKgJR1j9tCiANVjEAAG47fuSvjo502_mobile_large.jpg",
+                "channelIntro": "最全面的中医知识！",
+                "totalCount": 81,
+                "pre_data_type": 3,
+                "album_id": "7441943",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "不衰老不疲劳的生活",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group9/M07/4C/1F/wKgDZlcW5FzSeapHAAa_ODtE6L0450_mobile_large.jpg",
+                "channelCoverUrl": "http://fdfs.xmcdn.com/group9/M07/4C/1F/wKgDZlcW5FzSeapHAAa_ODtE6L0450_mobile_large.jpg",
+                "channelIntro": "健康养生节目的主讲专家佟彤来讲述女人不衰老、不疲劳的秘诀。早晨10点更新，看赏FM关心您的健康。",
+                "totalCount": 85,
+                "pre_data_type": 3,
+                "album_id": "4119821",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            },
+            {
+                "channelName": "健康养生",
+                "musicServiceId": "fadd9f655df9480179e0b3181be58fa2",
+                "channelId": "http://fdfs.xmcdn.com/group22/M0B/75/30/wKgJLlidY3yBdvsKAADJM6fc1AM446_mobile_large.jpg",
+                "channelCoverUrl": " http://fdfs.xmcdn.com/group22/M0B/75/30/wKgJLlidY3yBdvsKAADJM6fc1AM446_mobile_large.jpg",
+                "channelIntro": "针对生活养生常识、生活习惯、养生误区、养生方法、名人养生、养生文化、养生窍门等生活养生保健知识进行传播，让你了解更多养生保健和方法和知识。 更多精彩健康养生类内容，请关注39健康网公众微信号：health39net",
+                "totalCount": 386,
+                "pre_data_type": 3,
+                "album_id": "410276",
+                "channel_from": "MyChannelFragment",
+                "main_id": "分类"
+            }
+        ]
+    }
+]

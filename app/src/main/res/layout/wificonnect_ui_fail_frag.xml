@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include
+        layout="@layout/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/wifi_net_fail_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="16dp"
+            android:drawableTop="@drawable/ic_wifi_fail"
+            android:gravity="center"
+            android:text="@string/wifi_net_fail"
+            style="@style/TextLightStyle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="90dp"
+            android:alpha="0.7"
+            android:text="1.设备是否连接电源"
+            style="@style/TextDarkStyle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:alpha="0.7"
+            android:text="2.Wi_Fi是否正常"
+            style="@style/TextDarkStyle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:alpha="0.7"
+            android:text="3.请尝试重置设备"
+            style="@style/TextDarkStyle" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_retry"
+        style="@style/Fitwear.Button.Primary.Large"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30dp"
+        android:text="再次配置" />
+</FrameLayout>

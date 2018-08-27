@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/tb_login_select"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/white"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/myChannelHeaderMarginbothside"
+        lt:leftButtonImage="@drawable/ic_back_selector"
+        lt:titleColor="@color/text_color_black"
+        lt:titleSize="@dimen/actionbar_title_size"
+        lt:titleText="@string/user_login"></com.mantic.control.widget.TitleBar>
+
+
+    <LinearLayout
+        android:id="@+id/ll_login_select_username"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_below="@id/tb_login_select"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/linearlayout_bottom_border"
+        android:orientation="horizontal">
+
+        <com.mantic.control.widget.LineEditText
+            android:id="@+id/edit_login_username"
+            style="?android:attr/textViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="手机"
+            android:inputType="number"
+            android:maxLength="11"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="#313131"
+            android:textColorHint="#4d313131"
+            android:textCursorDrawable="@drawable/edit_text_cursor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_login_select_password"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_below="@id/ll_login_select_username"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/linearlayout_bottom_border"
+        android:orientation="horizontal">
+
+        <com.mantic.control.widget.LineEditText
+            android:id="@+id/edit_login_password"
+            style="?android:attr/textViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="#313131"
+            android:textColorHint="#4d313131"
+            android:textCursorDrawable="@drawable/edit_text_cursor"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="19dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="17dp"
+            android:background="#bdbdbd"></View>
+
+        <TextView
+            android:id="@+id/tv_login_select_retrieve_password"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:clickable="true"
+            android:text="忘记密码"
+            android:textColor="@color/register_text_background"
+            android:textSize="13sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_invalid_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_login_select_password"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="10dp"
+        android:text="非法手机号码"
+        android:textColor="@color/tip_red"
+        android:textSize="13sp"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_invalid_phone"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/btn_primary_bg_selector"
+        android:gravity="center|bottom">
+
+        <TextView
+            style="@style/BottomRedButtonStyle"
+            android:layout_width="wrap_content"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="@string/login" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_login_select_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:clickable="true"
+        android:padding="8dp"
+        android:text="注册账号"
+        android:textColor="@color/register_text_background"
+        android:textSize="14sp"></TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="121dp"
+        android:drawableLeft="@drawable/login_select_line"
+        android:drawableRight="@drawable/login_select_line"
+        android:text=" 其他登录方式 "
+        android:textColor="#717171"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="38dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginRight="73dp">
+
+        <LinearLayout
+            android:id="@+id/ll_baidu_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baidu_login_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_weixin_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/weixin_login_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_qq_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/qq_login_selector" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

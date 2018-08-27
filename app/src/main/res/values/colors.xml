@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--colorPrimary Actionbar颜色-->
+    <color name="colorPrimary">#ff000000</color>
+    <color name="main_search_color">#f9f9fa</color>
+    <!--colorPrimaryDark状态栏颜色-->
+    <color name="colorPrimaryDark">#ff000000</color>
+    <color name="colorAccent">#585858</color>
+    <color name="primary_button_bg">#cc1f3d</color>
+    <color name="primary_button_pressed">#a40620</color>
+    <color name="white">#ffffff</color>
+    <color name="tip_red">#cd1f3a</color>
+    <color name="black">#ff000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="grey">#585858</color>
+    <color name="roundProgressColor">#b9b9b9</color>
+    <color name="roundColor">#171717</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="divider">#282828</color>
+    <color name="list_divider">#eeeeee</color>
+    <color name="white_4">#66ffffff</color>
+    <color name="white_1">#1affffff</color>
+    <color name="white_5">#CCffffff</color>
+    <color name="text_color_grey">#999999</color>
+    <color name="text_color_black">#000000</color>
+    <color name="bg_grey">#dddddd</color>
+
+    <color name="bg_feedback">#f0eff5</color>
+
+    <color name="recylerview_item_bg">#cccccc</color>
+    <color name="audio_player_playlist_item_bg">#c8c8c8</color>
+
+<!--add by muxinwu start-->
+    <color name="textColorPrimary">#ffffff</color>
+
+    <color name="topDialogBackgroundDark">#E6000000</color>
+    <color name="text_color_white">#ffffffff</color>
+
+    <color name="mainTabIndicatorColor">#cc1f3b</color>
+    <color name="mainTabSelectedTextColor">@color/mainTabIndicatorColor</color>
+    <color name="mainTabTextColor">@color/colorPrimaryDark</color>
+    <color name="mainTabBackground">#fafafa</color>
+    <color name="mainTabBottomLineColor">#e5e5e5</color>
+    <color name="fragment_my_channel_background">#f0eff5</color>
+    <color name="audio_player_bar_background">#eef6f6f6</color>
+    <color name="myChannelNotesTextColor">#999999</color>
+    <color name="myChannelTitleTextColor">#000000</color>
+
+    <color name="audioPlayerAlbumNameTextColor">#ff2e2e2e</color>
+    <color name="audioPlayerSingerNameTextColor">#acacac</color>
+    <color name="audioPlayerTimeTextColor">#c0c0c0</color>
+    <color name="fragmentChannelDetailAlbumNameTextColor">#999999</color>
+    <color name="fragmentChannelDetailChannelNameTextColor">#000000</color>
+    <color name="fragmentChannelDetailExpandableTextColor">#000000</color>
+    <color name="fragmentChannelDetailRandomTextColor">#000000</color>
+    <color name="channel_detail_item_tv_album_sync_time_color">#b9b9b9</color>
+    <color name="channelDetailsItemIndexTextColor">#999999</color>
+    <color name="channelDetailsItemNameTextColor">#000000</color>
+    <color name="musicServiceNameTextColor">#000000</color>
+    <color name="selectDeviceNameTextColor">#ffffff</color>
+
+    <color name="audioPlayerPlaylistBackground">#1adcdcdc</color>
+    <color name="audioPlayerPlaylistLoopDescTextColor">#000000</color>
+    <color name="audioPlayerPlaylistLoopCountTextColor">#878787</color>
+    <color name="audioPlayerPlaylistIndicatorColor">#b9b9b9</color>
+    <color name="audioPlayerPlaylistItemColor">#999999</color>
+    <color name="audioPlayerPlaylistItemNameTextColor">@color/audioPlayerPlaylistLoopDescTextColor</color>
+    <color name="audioPlayerPlaylistItemSingerNameTextColor">#7b7b7b</color>
+    <color name="audioPlayerCurrItemTextColor">#cc1f3c</color>
+    <color name="audioPlayerItemNormalColor">#00dfdfdf</color>
+    <!-- circularprogressview start -->
+    <color name="cpv_default_color">#2196F3</color>
+    <!-- circularprogressview end -->
+<!--add by muxinwu end-->
+    <color name="prohibit">#4D576A</color>
+    <color name="device_list_background">#071F2D</color>
+    <color name="title_background">#2A3547</color>
+    <color name="href_text">#07B1CB</color>
+    <color name="href_text_prohibit">#4D07B1CB</color>
+    <color name="tip_blue_color">#0397d9</color>
+
+    <color name="channelDetailMorelistItemTextColor">#030303</color>
+    <color name="channelDetailMorelistBgColor">#e3e3e3</color>
+
+    <color name="music_device_online">#e3e3e3</color>
+    <color name="music_device_offline_view">#959595</color>
+    <color name="music_device_online_view">#01fe06</color>
+    <color name="music_device_offline_text">#c9c9c9</color>
+    <color name="channel_detail_random_play_text_color">#646262</color>
+    <color name="channel_detail_random_play_count_color">#999999</color>
+
+
+    <color name="qr_code_white">#FFFFFFFF</color>
+    <color name="qr_code_flashlight_bg">#66000000</color>
+    <color name="qr_code_finder_mask">#80000000</color>
+    <color name="qr_code_flash_light_text_color">#66FFFFFF</color>
+    <color name="qr_code_finder_frame">#FFFFFFFF</color>
+    <color name="qr_code_finder_laser">#cf1e3b</color>
+
+    <color name="white_70">#b3ffffff</color>
+    <color name="white_50">#80ffffff</color>
+    <color name="white_35">#59ffffff</color>
+
+
+    <color name="tv_channel_add_save_unable_color">#40000000</color>
+    <color name="operator_fail_color">#cc1f3c</color>
+    <color name="operator_success_color">#09c774</color>
+    <color name="under_titlebar_colr">#b5b5b5</color>
+    <color name="image_shape_color">#dedede</color>
+    <color name="royalblue">#4169E1</color>
+    <color name="purple">#fbe8ec</color>
+    <color name="jd_address_press">#D3D3D3</color>
+
+    <color name="rank_normal">#313131</color>
+    <color name="rank_select">#cd1f3a</color>
+
+    <!-- WavefromView colors -->
+    <color name="waveform_selected">#33b5e5</color>
+    <color name="waveform_unselected">#195a72</color>
+    <color name="waveform_unselected_bkgnd_overlay">#000000</color>
+    <color name="selection_border">#33b5e5</color>
+    <color name="playback_indicator">#ffff66</color>
+    <color name="grid_line">#66ffffff</color>
+    <color name="timecode">#ddffffdd</color>
+    <color name="timecode_shadow">#aa000000</color>
+</resources>

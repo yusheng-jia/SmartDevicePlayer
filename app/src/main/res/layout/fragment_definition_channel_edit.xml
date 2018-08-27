@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/tb_definition_channel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/main_search_color"
+        android:paddingLeft="8dp"
+        android:paddingRight="13dp"
+        lt:leftButtonText="@string/cancel"
+        lt:leftButtonTextColor="@color/text_color_black"
+        lt:leftButtonTextSize="@dimen/channel_manager_titlebar_lefttext_size"
+        lt:rightButtonText="@string/save"
+        lt:rightButtonTextColor="@color/text_color_black"
+        lt:rightButtonTextSize="@dimen/channel_manager_titlebar_lefttext_size"
+        lt:titleColor="@color/text_color_black"
+        lt:titleSize="@dimen/actionbar_title_size"
+        lt:titleText="@string/channel_edit">
+
+    </com.mantic.control.widget.TitleBar>
+
+    <View
+        android:id="@+id/view_under_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/tb_channel_management"
+        android:background="@color/under_titlebar_colr" />
+
+    <RelativeLayout
+        android:id="@+id/channel_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_channel_details_toolbar"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcv_definition_channel_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/fragment_channel_detail_linearlayout_bottom_indicator"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+    </RelativeLayout>
+
+</LinearLayout>

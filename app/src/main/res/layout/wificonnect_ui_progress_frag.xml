@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <com.mantic.control.ui.view.RoundProgressBar
+        android:id="@+id/roundProgressBar"
+        android:layout_width="246dp"
+        android:layout_height="246dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="100dp"
+        app:roundColor="#171717"
+        app:roundProgressColor="#b9b9b9"
+        app:roundPathColor="#b9b9b9"
+        app:textColor="#ffffff"
+        app:textIsDisplayable="true"
+        app:roundWidth="3.3dip"
+        app:textSize="43sp"/>
+
+
+    <TextView
+        android:id="@+id/wificonnect_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="设备正在努力联网..."
+        android:layout_marginTop="373dp"
+        android:layout_marginBottom="20dp"
+        style="@style/TextLightStyle"
+        />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        style="@style/Fitwear.Button.Primary.Large"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="30dp"
+        android:text="取消" />
+
+
+</FrameLayout>

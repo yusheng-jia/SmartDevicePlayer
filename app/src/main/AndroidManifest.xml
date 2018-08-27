@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mantic.control">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- 用户统计使用 -->
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <!-- Bugly -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <!-- 讯飞 -->
+    <!-- 连接网络权限，用于执行云端语音能力 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 读取网络信息状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 获取当前wifi状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 允许程序改变网络连接状态 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!-- 读取手机信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 读取联系人权限，上传联系人需要用到此权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 外存储写权限，构建语法需要用到此权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 外存储读权限，构建语法需要用到此权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 配置权限，用来记录应用配置信息 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 手机定位信息，用来为语义等功能提供定位，提供更精准的服务 -->
+    <!-- 定位信息是敏感信息，可通过Setting.setLocationEnable(false)关闭定位请求 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 如需使用人脸识别，还要添加：摄相头权限，拍照需要用到 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 讯飞 -->
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="false" />
+
+    <!-- Bugly -->
+    <application
+        android:name=".ManticApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/BaseAppTheme"
+        tools:replace="android:allowBackup">
+
+        <!-- 朵钥SDK -->
+        <meta-data
+            android:name="com.rogen.net.api.appid"
+            android:value="58f5af1605701" />
+        <meta-data
+            android:name="com.rogen.net.api.appscret"
+            android:value="a806aa9062dd1d26a315b7533144b606" />
+        <meta-data
+            android:name="app_key"
+            android:value="ba3489e4961ce3bf4b47592c90572500" />
+        <meta-data
+            android:name="pack_id"
+            android:value="com.mantic.control" />
+        <meta-data
+            android:name="com.baidu.dueriot.APP_KEY"
+            android:value="${BAIDU_CLIENT_ID}" />
+        <meta-data
+            android:name="com.baidu.dueriot.SECRET_KEY"
+            android:value="${BAIDU_SECRET_ID}" />
+        <meta-data
+            android:name="TD_APP_ID"
+            android:value="39267B0F85F14BA2B1B793E73156EA17" />
+        <meta-data
+            android:name="TD_CHANNEL_ID"
+            android:value="CM00-SPK0-YYB000" />
+
+        <activity
+            android:name=".activity.LoadingActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.StartActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/WhiteAppTheme" />
+        <activity
+            android:name=".activity.LoginSelectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/WhiteAppTheme" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/WhiteAppTheme" />
+        <activity
+            android:name=".activity.RetrievePasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/WhiteAppTheme" />
+        <activity
+            android:name=".activity.ModifyPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/WhiteAppTheme" />
+        <activity
+            android:name=".activity.CheckNetworkActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/WhiteAppTheme" />
+        <activity
+            android:name=".activity.Network5GActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/WhiteAppTheme" />
+        <activity
+            android:name=".activity.ManticBindActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/WhiteAppTheme" />
+        <activity
+            android:name=".activity.NetworkConfigActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/WhiteAppTheme" />
+        <activity
+            android:name=".activity.EditManticNameActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/WhiteAppTheme"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name=".activity.SelectInterestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FeedBackActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FirmwareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BaiduLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DeviceDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DeviceRenameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HelpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UserCenterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAppTheme.NoActionBar.TranslucentTheme" />
+        <!-- add by muxinwu start -->
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <!-- add by muxinwu end -->
+
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="adjustPan|adjustUnspecified|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="mantic" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".qrcode.QrCodeActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".activity.UserAgreementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PrivacyPolicyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragment.EditSoundActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AnchorSelActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SoundBackgroundActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SoundPlayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SeniorEditSoundActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragment.ProductMoreFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AccountSettingActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+        <!-- <activity -->
+        <!-- android:name=".device.bind.UuidBindActivity" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <!-- <activity -->
+        <!-- android:name=".device.bind.BindDetailActivity" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <service
+            android:name=".device.ControlTaskService"
+            android:priority="1000">
+            <intent-filter>
+                <action android:name="device.control.service" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".receiver.NetworkReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.AppReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <!-- jd start -->
+        <activity
+            android:name=".activity.JdSmartHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.JdShoppingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.JdVirtualDevicesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.JdShoppingInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.JdAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.authorize.AuthorizeActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.jd.smartcloudmobilesdk.confignet.ble.core.BleService"
+            android:enabled="true" />
+        <!-- jd end -->
+
+        <activity android:name=".activity.ClockActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/user_center_background"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="28dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_back_white_selector"
+            tools:ignore="RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/center_head"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_default_icon"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/center_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/text_color_white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/change_password"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/recylerview_item_bg"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/DeviceListItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:text="@string/change_password" />
+
+        <ImageView
+            style="@style/DeviceListStatusItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/goto_enter" />
+
+    </RelativeLayout>
+</LinearLayout>

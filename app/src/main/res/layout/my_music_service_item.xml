@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/recylerview_item_bg"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:id="@+id/rl_my_music_service_item"
+    android:layout_height="@dimen/myChannelItemHeight">
+
+    <ImageView
+        android:id="@+id/iv_my_music_service_iten_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+        android:layout_width="@dimen/myChannelCoverWidth"
+        android:layout_height="@dimen/myChannelCoverHeight" />
+    
+    <TextView
+        android:layout_marginLeft="@dimen/myChannelTitleMarginLeft"
+        android:layout_toRightOf="@id/iv_my_music_service_iten_icon"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="网络音乐"
+        android:textSize="@dimen/myChannelTitleTextSize"
+        android:textColor="@color/myChannelTitleTextColor"
+        android:id="@+id/tv_my_music_service_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </TextView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_my_music_service_detail"
+        android:src="@drawable/goto_enter"
+        android:layout_marginRight="@dimen/myChannelHeaderMarginbothside"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="13dp" />
+
+</RelativeLayout>

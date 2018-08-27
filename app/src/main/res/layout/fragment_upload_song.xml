@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true">
+
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/tb_upload_album"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/main_search_color"
+        android:paddingRight="12dp"
+        lt:leftButtonImage="@drawable/ic_mylike_back_selector"
+        lt:rightButtonText="@string/commit"
+        lt:rightButtonTextColor="@color/text_color_black"
+        lt:rightButtonTextSize="@dimen/channel_add_titlebar_lefttext_size"
+        lt:titleColor="@color/text_color_black"
+        lt:titleSize="@dimen/actionbar_title_size"
+        lt:titleText="@string/upload_song">
+
+    </com.mantic.control.widget.TitleBar>
+
+
+    <View
+        android:id="@+id/view_under_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/tb_upload_album"
+        android:background="@color/under_titlebar_colr" />
+
+    <RelativeLayout
+        android:id="@+id/rl_upload_album_icon"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/view_under_titlebar"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="6.7dp">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:text="封面"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_selected_photo"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_centerVertical="true"
+            android:src="@drawable/audio_player_album_cover_default"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="77dp"
+            app:riv_corner_radius="3.7dip"
+            android:layout_width="47dp"
+            android:layout_height="47dp" />
+
+        <ImageView
+            android:id="@+id/iv_select_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/entertainment_more" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_under_titlebar_icon"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/rl_upload_album_icon"
+        android:layout_marginLeft="13dp"
+        android:background="@color/mainTabBottomLineColor" />
+
+    <RelativeLayout
+        android:id="@+id/rl_upload_album_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/view_under_titlebar_icon"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="6.7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="名称"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <com.mantic.control.widget.ScrollEditText
+            android:id="@+id/edit_upload_album_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myChannelHeaderHeight"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="77dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:hint="输入名称"
+            android:textColor="@color/black"
+            android:textColorHint="#878787"
+            android:textSize="14sp">
+        </com.mantic.control.widget.ScrollEditText>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_under_titlebar_name"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/rl_upload_album_name"
+        android:layout_marginLeft="13dp"
+        android:background="@color/mainTabBottomLineColor" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_upload_album_url"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/view_under_titlebar_name"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="6.7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="播放源"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <com.mantic.control.widget.ScrollEditText
+            android:id="@+id/edit_upload_album_url"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myChannelHeaderHeight"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="77dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:hint="输入播放源"
+            android:textColor="@color/black"
+            android:textColorHint="#878787"
+            android:textSize="14sp">
+        </com.mantic.control.widget.ScrollEditText>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_under_titlebar_url"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/rl_upload_album_url"
+        android:layout_marginLeft="13dp"
+        android:background="@color/mainTabBottomLineColor" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdffffff"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fdffffff"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <ImageView
+            android:id="@+id/iv_channel_detail_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/channel_details_describe_cancel" />
+
+
+        <ImageView
+            android:id="@+id/iv_channel_detail_icon"
+            android:layout_width="183.3dp"
+            android:layout_height="183.3dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="28dp" />
+
+        <TextView
+            android:id="@+id/tv_channel_detail_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:lineSpacingExtra="3dp"
+            android:paddingLeft="37dp"
+            android:paddingRight="37dp"
+            android:textColor="#313131"
+            android:textSize="13sp" />
+    </LinearLayout>
+</ScrollView>

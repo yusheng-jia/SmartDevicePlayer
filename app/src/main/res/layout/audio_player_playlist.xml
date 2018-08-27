@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/audio_player_playlist_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/audio_player_playlist_item_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/playlist_top_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/audioPlayerTopBarHeight">
+
+        <TextView
+            android:id="@+id/audio_player_playlist_loop_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/audioPlayerPlaylistLoopMarginBothsides"
+            android:background="@android:color/transparent"
+            android:text="@string/audio_playlist"
+            android:textColor="@color/audioPlayerPlaylistLoopDescTextColor"
+            android:textSize="@dimen/audioPlayerPlaylistLoopDescTextSize" />
+
+        <TextView
+            android:id="@+id/audio_player_playlist_loop_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/audio_player_playlist_loop_desc"
+            android:background="@android:color/transparent"
+            android:textColor="@color/audioPlayerPlaylistLoopCountTextColor"
+            android:textSize="@dimen/audioPlayerPlaylistLoopDescTextSize" />
+
+        <ImageButton
+            android:id="@+id/audio_player_playlist_loop_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/audioPlayerPlaylistAddBtnMarginRight"
+            android:layout_toLeftOf="@+id/audio_player_playlist_add_btn"
+            android:background="@android:color/transparent"
+            android:src="@drawable/audio_player_single_loop_nor" />
+
+        <View
+            android:id="@+id/audio_player_playlist_line1"
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="11.6dp"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@id/audio_player_playlist_add_btn"
+            android:background="@color/audioPlayerPlaylistItemSingerNameTextColor" />
+
+        <ImageButton
+            android:id="@+id/audio_player_playlist_empty_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/audioPlayerPlaylistLoopMarginBothsides"
+            android:background="@android:color/transparent"
+            android:src="@drawable/btn_audio_player_playlist_empty" />
+
+        <View
+            android:id="@+id/audio_player_playlist_line2"
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="11.6dp"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@id/audio_player_playlist_empty_btn"
+            android:background="@color/audioPlayerPlaylistItemSingerNameTextColor" />
+
+        <ImageButton
+            android:id="@+id/audio_player_playlist_add_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/audioPlayerPlaylistAddBtnMarginRight"
+            android:layout_toLeftOf="@id/audio_player_playlist_empty_btn"
+            android:background="@android:color/transparent"
+            android:src="@drawable/btn_audio_player_playlist_add" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/itemIndicatorHeight"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent"
+            android:src="@color/audioPlayerPlaylistIndicatorColor" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/audio_player_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="336dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:layout_below="@id/playlist_top_content" />
+
+    <RelativeLayout
+        android:id="@+id/playlist_cancel_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/audioPlayerTopBarHeight"
+        android:layout_below="@id/audio_player_playlist"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/itemIndicatorHeight"
+            android:background="@android:color/transparent"
+            android:src="@color/audioPlayerPlaylistIndicatorColor" />
+
+        <TextView
+            android:id="@+id/playlist_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/cancel"
+            android:textColor="@color/audioPlayerPlaylistLoopDescTextColor"
+            android:textSize="@dimen/audioPlayerPlaylistLoopDescTextSize" />
+    </RelativeLayout>
+</RelativeLayout>

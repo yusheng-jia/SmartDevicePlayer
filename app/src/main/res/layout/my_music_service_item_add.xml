@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/recylerview_item_bg"
+    android:layout_width="match_parent"
+    android:id="@+id/rl_my_music_service_item_add"
+    android:visibility="gone"
+    android:layout_height="@dimen/myChannelHeaderHeight">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/my_music_service_item_add"
+            />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="添加服务"
+            android:textSize="@dimen/myChannelNotesTextSize"
+            android:textColor="@color/tip_blue_color"
+            android:id="@+id/tv_my_music_service_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

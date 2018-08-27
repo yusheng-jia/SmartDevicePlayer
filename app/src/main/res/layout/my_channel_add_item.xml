@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/myChannelItemHeight"
+    android:paddingLeft="@dimen/myChannelHeaderMarginbothside"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_my_channel_add_icon"
+        android:layout_centerVertical="true"
+        android:layout_width="62.33dp"
+        android:layout_height="62.33dp"
+        android:background="@drawable/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/iv_my_channel_add_icon">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_my_channel_add_item_del_btn"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/audioPlayerPlaylistLoopMarginBothsides"
+            android:background="@android:color/transparent"
+            android:src="@drawable/btn_audio_player_playlist_item_del"/>
+
+        <ImageButton
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_my_channel_add_item_setting_btn"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/btn_my_channel_add_item_del_btn"
+            android:layout_marginRight="@dimen/audioPlayerPlaylistItemSettingBtnMarginRight"
+            android:background="@android:color/transparent"
+            android:src="@drawable/btn_audio_player_playlist_item_setting"/>
+
+        <TextView
+            android:id="@+id/tv_my_channel_add_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/btn_my_channel_add_item_setting_btn"
+            android:gravity="center_vertical|left"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="trackname"
+            android:textColor="@color/text_color_black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_my_channel_add_item_singer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_my_channel_add_item_name"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@id/btn_my_channel_add_item_setting_btn"
+            android:lines="1"
+            android:text="intro"
+            android:textColor="@color/text_color_grey"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

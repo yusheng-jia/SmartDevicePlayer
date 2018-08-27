@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lt="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0eff5"
+    android:fitsSystemWindows="true">
+    <com.mantic.control.widget.TitleBar
+        android:id="@+id/jd_shopping_info_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/main_search_color"
+        android:paddingStart="8dp"
+        android:paddingEnd="@dimen/myChannelHeaderMarginbothside"
+        lt:leftButtonImage="@drawable/ic_back_selector"
+        lt:titleColor="@color/text_color_black"
+        lt:titleSize="@dimen/actionbar_title_size"
+        lt:titleText="选择收货地址">
+    </com.mantic.control.widget.TitleBar>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/jd_address_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:id="@+id/loading_view"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_progress_loading"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/net_loading"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="@string/net_is_loading"
+            android:textSize="@dimen/channel_add_titlebar_lefttext_size"
+            android:textColor="@color/text_color_grey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/no_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"
+        android:textColor="#bdbcc2"
+        android:text="如何添加或者编辑收货地址，请去京东APP操作" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/audioPlayerBottomSheetPeekHeight"
+    android:background="@color/audio_player_bar_background">
+
+    <ImageView
+        android:layout_width="@dimen/audioBottomBarAlbumCoverWidthHeight"
+        android:layout_height="@dimen/audioBottomBarAlbumCoverWidthHeight"
+        android:id="@+id/audio_bottom_bar_default_cover"
+        android:src="@drawable/audio_bottom_bar_album_cover"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/audio_bottom_bar_channel_name"
+        android:textSize="@dimen/myChannelTitleTextSize"
+        android:textColor="@color/myChannelTitleTextColor"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/audio_bottom_bar_default_cover"
+        android:layout_marginLeft="20dp"
+        android:text="云音乐，点歌用说的" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/audio_player_bar_play_pause"
+        android:src="@drawable/btn_audio_bottom_bar_play"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/itemIndicatorHeight"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="@dimen/myChannelHeaderMarginbothside"/>
+
+</RelativeLayout>

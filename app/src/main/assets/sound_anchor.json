@@ -1,0 +1,36 @@
+{
+  "jsonrpc": "2.0",
+  "id":1,
+  "result":[
+    {
+      "anchor" : "小琪",
+      "anchor_value":"xiaoqi",
+      "anchor_detail":"女青、中英、普通话",
+      "content": "欢迎使用小曼语音合成"
+    },
+    {
+      "anchor" : "小燕",
+      "anchor_value":"xiaoyan",
+      "anchor_detail":"女青、中英、普通话",
+      "content": "欢迎使用小曼语音合成"
+    },
+    {
+      "anchor" : "小研",
+      "anchor_value":"vixy",
+      "anchor_detail":"女青、中英、普通话",
+      "content": "欢迎使用小曼语音合成"
+    },
+    {
+      "anchor" : "小峰",
+      "anchor_value":"xiaoqi",
+      "anchor_detail":"男青、中英、普通话",
+      "content": "欢迎使用小曼语音合成"
+    },
+    {
+      "anchor" : "小宇",
+      "anchor_value":"xiaoyu",
+      "anchor_detail":"男青、中英、普通话",
+      "content": "欢迎使用小曼语音合成"
+    }
+  ]
+}

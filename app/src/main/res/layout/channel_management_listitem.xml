@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/myChannelItemHeight"
+    android:id="@+id/rl_channel_management"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="@dimen/myChannelCoverWidth"
+        android:layout_height="@dimen/myChannelCoverHeight"
+        android:id="@+id/channel_icon"
+        android:src="@drawable/like_music"
+        android:layout_marginLeft="@dimen/myChannelHeaderMarginbothside"
+        android:layout_centerVertical="true"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/channel_del_btn"
+        android:src="@drawable/btn_audio_player_playlist_item_del"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/myChannelHeaderMarginbothside"
+        android:background="@android:color/transparent"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_channel_setting"
+        android:layout_toLeftOf="@id/channel_del_btn"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginRight="@dimen/audioPlayerPlaylistItemSettingBtnMarginRight"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:clickable="false"
+            android:longClickable="false"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/channel_setting_btn"
+            android:background="@android:color/transparent"
+            android:src="@drawable/btn_audio_player_playlist_item_setting"/>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_toLeftOf="@id/rl_channel_setting"
+        android:layout_toRightOf="@id/channel_icon"
+        android:layout_marginLeft="@dimen/myChannelTitleMarginLeft">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/channel_title"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="@dimen/myChannelTitleTextSize"
+            android:textColor="@color/myChannelTitleTextColor"
+            android:layout_marginBottom="@dimen/myChannelTitleMarginBottom"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/channel_desc"
+            android:textSize="@dimen/myChannelNotesTextSize"
+            android:textColor="@color/myChannelNotesTextColor"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

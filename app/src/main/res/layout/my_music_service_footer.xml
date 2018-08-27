@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/myChannelHeaderHeight"
+        android:background="@color/fragment_my_channel_background"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/myChannelHeaderMarginbothside"
+        android:text="@string/local"
+        android:textColor="@color/myChannelNotesTextColor" />
+
+    <RelativeLayout
+        android:id="@+id/rl_local_music"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_centerInParent="true"
+        android:background="@drawable/recylerview_item_bg"
+        android:paddingLeft="@dimen/myChannelHeaderMarginbothside">
+
+        <ImageView
+            android:id="@+id/iv_local_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/local_music" />
+
+        <TextView
+            android:id="@+id/tv_my_music_service_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/music_service_local_music_margin"
+            android:layout_toRightOf="@id/iv_local_music"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/local_music"
+            android:textColor="@color/black"
+            android:textSize="@dimen/myChannelTitleTextSize"></TextView>
+
+
+        <ImageButton
+            android:id="@+id/btn_my_music_service_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/myChannelHeaderMarginbothside"
+            android:background="@android:color/transparent"
+            android:src="@drawable/goto_enter" />
+    </RelativeLayout>
+</LinearLayout>

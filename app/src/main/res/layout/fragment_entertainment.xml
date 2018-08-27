@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_entertainment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_my_channel_background">
+
+    <com.mantic.control.widget.VpSwipeRefreshLayout
+        android:id="@+id/srl_entertainment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:id="@+id/sv_entertainment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/fragment_my_channel_background"
+            android:overScrollMode="never"
+            android:paddingBottom="@dimen/audioPlayerBottomSheetPeekHeight"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <com.recker.flybanner.FlyBanner
+                    android:id="@+id/fb_entertainment_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="114dp"/>
+
+                <!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="114dp">
+
+                    <com.hejunlin.superindicatorlibray.LoopViewPager
+                        android:id="@+id/lvp_entertainment_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="114dp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/looper_bottom_bg">
+
+                        <com.hejunlin.superindicatorlibray.CircleIndicator
+                            android:id="@+id/indicator"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:layout_marginRight="7dp"
+                            android:gravity="center"
+                            android:orientation="horizontal" />
+                    </FrameLayout>
+                </FrameLayout>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingBottom="20.3dp"
+                    android:paddingTop="15dp">
+
+                    <LinearLayout
+                        android:id="@+id/ll_song_sheet"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/song_sheet" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.3dp"
+                            android:text="歌单"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_music_rank"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/music_rank" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.3dp"
+                            android:text="音乐排行榜"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_popular_singer"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/popular_singer" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.3dp"
+                            android:text="热门歌手"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_fm_radio"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/fm_radio" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.3dp"
+                            android:text="FM广播"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="-6.5dp"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="11dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="推荐歌单"
+                            android:textColor="@color/text_color_black"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_entertainment_recommend_more"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/entertainment_more" />
+                    </RelativeLayout>
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_entertainment_recommend"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="17.5dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:overScrollMode="never"
+                        android:scrollbars="none" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3.7dp"
+                        android:layout_marginTop="14dp"
+                        android:paddingLeft="11dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="新歌首发"
+                            android:textColor="@color/text_color_black"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/entertainment_more"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <com.mantic.control.widget.CustomViewPager
+                        android:id="@+id/vp_entertainment_new_song"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="18.7dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:overScrollMode="never"
+                        android:paddingRight="13dp"
+                        android:paddingLeft="13dp"
+                        android:scrollbars="none">
+                    </com.mantic.control.widget.CustomViewPager>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="-6.5dp"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="11dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="网友歌单"
+                            android:textColor="@color/text_color_black"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_entertainment_netizen_more"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/entertainment_more" />
+                    </RelativeLayout>
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_entertainment_netizen"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="17.5dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:overScrollMode="never"
+                        android:scrollbars="none" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8.5dp"
+                        android:layout_marginTop="14dp"
+                        android:paddingLeft="11dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="来听有声"
+                            android:textColor="@color/text_color_black"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_entertainment_voiced"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="17.2dp"
+                        android:layout_marginLeft="8.35dp"
+                        android:layout_marginRight="8.35dp"
+                        android:overScrollMode="never"
+                        android:scrollbars="none" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_entertainment_voiced_more"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="14dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginRight="24dp"
+                        android:overScrollMode="never"
+                        android:scrollbars="none" />
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_show_entertainment_voice_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="16.2dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="6.8dp">
+
+                        <TextView
+                            android:id="@+id/tv_show_entertainment_voice_more"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="查看全部"
+                            android:textColor="#7c7c7c"
+                            android:textSize="11sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_show_entertainment_voice_more"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:src="@drawable/entertainment_voice_more_down" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2.5dp"
+                        android:layout_marginTop="14dp"
+                        android:paddingLeft="11dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="儿童教育"
+                            android:textColor="@color/text_color_black"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_entertainment_child_education"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7.95dp"
+                        android:layout_marginLeft="7.35dp"
+                        android:layout_marginRight="7.35dp"
+                        android:overScrollMode="never"
+                        android:scrollbars="none" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_entertainment_child_education_more"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="26.8dp"
+                        android:layout_marginLeft="7.35dp"
+                        android:layout_marginRight="7.35dp"
+                        android:overScrollMode="never"
+                        android:scrollbars="none" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="#fff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:paddingLeft="13dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="20dp"
+                        android:textSize="11sp"
+                        android:gravity="center"
+                        android:textColor="#a6a6a6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="百度音乐、蜻蜓FM、东方音乐等提供内容服务"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </com.mantic.control.widget.VpSwipeRefreshLayout>
+</LinearLayout>
