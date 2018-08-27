@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AntService</string>
+
+    <!-- baidu iot string-->
+    <string name="device_bind_success">设备绑定成功</string>
+    <string name="uuid_token_err">设备uuid或token错误</string>
+    <string name="uuid_token_binded">设备已被绑定</string>
+    <string name="send_control_fail">检查设备是否连接</string>
+    <string name="send_url_null">音乐资源空</string>
+    <string name="send_control_succ">发送控制命令成功，taskId:</string>
+    <string name="control_content_not_empty">控制内容不能为空</string>
+    <string name="device_setting">设备设置</string>
+    <string name="get_data_time_interval">获取数据间隔</string>
+    <string name="device_control_log">设备控制日志</string>
+    <string name="device_data_log">设备上报日志</string>
+    <string name="unbind">解除绑定</string>
+    <string name="device_set_online">设备上线</string>
+    <string name="second">秒</string>
+    <string name="report_point">上报数据点</string>
+    <string name="data_report_empty">该数据点没有数据上报</string>
+    <string name="control_log_empty">该设备没有控制记录</string>
+    <string name="get_data_fail">获取数据失败</string>
+    <string name="waiting_data">正在获取数据...</string>
+    <string name="control_success">控制成功</string>
+    <string name="control_fail">控制失败</string>
+    <string name="control_get_fail">获取失败</string>
+    <string name="device_uuid_null">设备UUID空</string>
+    <string name="device_uuid_null_unbind_fail">设备UUID空,解绑失败</string>
+    <string name="make_sure_device_isonline">确认设备已开机或者联网</string>
+
+</resources>
